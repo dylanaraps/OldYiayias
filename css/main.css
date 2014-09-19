@@ -700,6 +700,10 @@
  		#fbsection7 p {
  			font-size: 1.2em;
  		}
+
+ 		#fbsection7 .icon-facebook-squared, .icon-mail-squared {
+ 			font-size: 1.7em;
+ 		}
 	}
 
 	#fbsection7 li {
