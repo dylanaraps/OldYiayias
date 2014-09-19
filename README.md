@@ -1,10 +1,25 @@
-Yiayia's Website v2
+Yiayia's
 ==========================
 
-One page website for Yiayia's Greek Cafe
+A one page, fully responsive website built for http://Yiayias.com.au.
+
+Demo: http://therealvdeadline.github.io
+
+Features
+==========================
+
+- [x] Built with Bootstrap 3
+- [x] Fully Responsive
+- [x] Retina Ready
+- [x] Lightweight
+- [x] Licensed under MIT
+
+These files are all edited to suit the project I am working on. I will release a base template later on that is easier to understand and edit. 
+
+This project also still has some unfixed bugs so use at your own risk. 
+
 
 Licensed under MIT.
-
+==========================
 Feel free to take this and modify it to suit your needs. 
 
-I will probably make a template for this at some point. 
