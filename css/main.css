@@ -116,6 +116,15 @@
 		overflow-x: hidden !important; /* Needed otherwise there's a horizontal scroll bar on mobile. */
 	}
 
+	/* Global Transition Style for all links (.navbar-default .navbar-toggle is for mobile) */
+	a, .navbar-default, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a:after, .navbar-default .navbar-toggle {
+		-o-transition:.3s;
+        -ms-transition:.3s;
+        -moz-transition:.3s;
+        -webkit-transition:.3s;
+        transition:.3s;
+	}
+
 /* CENTERING STYLES (Used vertically center almost everything you see on the page.)
 ----------------------------------------------------------------------------- */
 	.verticalcenter {
@@ -128,14 +137,6 @@
 
 /* NAVBAR STYLES (Overides to change navbar color on scroll)
 ----------------------------------------------------------------------------- */
-	.navbar-default /* Provides the transition when the nav changes colors */ {
-    	-o-transition:.3s;
-        -ms-transition:.3s;
-        -moz-transition:.3s;
-        -webkit-transition:.3s;
-        transition:.3s;
-	}
-
 	.affix, .navbar-fixed-top {
         -webkit-transform: none; 
 	}
@@ -150,11 +151,6 @@
 		font-family: 'Yiayias';
 		font-size: 1.5em;
     	color: #FFFFFF;
-    	-o-transition:.3s;
-        -ms-transition:.3s;
-        -moz-transition:.3s;
-        -webkit-transition:.3s;
-        transition:.3s;
 	}
 
 	.navbar-default .navbar-brand:hover,
@@ -167,11 +163,6 @@
 		font-family: 'Raleway', sans-serif;
 		font-size: 1em;
     	color: #FFFFFF;
-    	-o-transition:.3s;
-        -ms-transition:.3s;
-        -moz-transition:.3s;
-        -webkit-transition:.3s;
-        transition:.3s;
 	}
 
 	.navbar-default .navbar-nav > li > a:after {
@@ -182,9 +173,6 @@
     	height: 0px;
     	width: 100%;
     	background: transparent;
-        -webkit-transition: all ease 0.2s;
-        -moz-transition: all ease 0.2s;
-        transition: all ease 0.2s;
 	}
 
 	.navbar-default .navbar-nav > li > a:hover:after,
@@ -208,11 +196,6 @@
 	/* mobile version */
 	.navbar-default .navbar-toggle {
     	border-color: transparent;
-    	-o-transition:.3s;
-        -ms-transition:.3s;
-        -moz-transition:.3s;
-        -webkit-transition:.3s;
-        transition:.3s;
 	}
 
 	.navbar-default .navbar-toggle:hover,
@@ -248,9 +231,6 @@
     	.navbar-default .navbar-nav > li > a:after {
     		width: 0%;
     		background: transparent;
-            -webkit-transition: all ease 0.2s;
-            -moz-transition: all ease 0.2s;
-            transition: all ease 0.2s;	
 		}
 	}
 
@@ -260,11 +240,8 @@
 	.fixedbackgrounds /* Needed for the sections */ {
    	 	height: 100%;
    	 	max-height: 100%;
-   	 	min-height: 100%;	
-	}
-
-	body, .fixedbackgrounds /* May not need this class, can't test ios atm */ {
-		-webkit-background-size: 2000px 1175px; 
+   	 	min-height: 100%;
+   	 	-webkit-background-size: 2000px 1175px; /* May not need this class, can't test ios atm */  	
 	}
 
 	.fixedbackgrounds section {
@@ -363,16 +340,11 @@
 		text-align: center;
 	}
 
-	#fbsection1 a .icon-angle-down {
+	#fbsection1 a .icon-angle-down /* Needs a combination of display: inline-block; and text-align: center; to be centered properly */{
 		font-size: 5.5em;
 		color: #FFFFFF;
 		text-align: center;
-		-o-transition:.3s;
-        -ms-transition:.3s;
-        -moz-transition:.3s;
-        -webkit-transition:.3s;
-        transition:.3s;
-        display: inline-block;
+        display: inline-block; 
     	width: 100%;
     	line-height: 0;
 	}
@@ -681,11 +653,6 @@
  	#fbsection7 p a {
  		color: #FFFFFF;
  		text-decoration: none;
- 		-o-transition:.3s;
-        -ms-transition:.3s;
-        -moz-transition:.3s;
-        -webkit-transition:.3s;
-        transition:.3s;
  	}
 
  	#fbsection7 p a:hover {
@@ -713,7 +680,6 @@
 		padding-bottom: 1%;
 		padding-top: 2%;
 	}
-
 
 
 /* BELOW LINE IS START FOR EXTERNAL CSS (CSS FROM LIBRARIES\ETC)
