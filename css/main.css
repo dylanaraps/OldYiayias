@@ -301,7 +301,7 @@
 /* SECTION 1 STYLES
 ----------------------------------------------------------------------------- */
 	#fbsection1 {
-    	background-image: url(../img/bg/section1-large.jpg);
+    	background-image: url(../img/bg/section1.jpg);
     	height: 100%;
     	max-height: 100%; /* Unsure if I need Max and Min height classes, need to look into this when I can do testing */
    	 	min-height: 100%;
@@ -310,25 +310,6 @@
   		transform-style: preserve-3d;
   		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg/section1.jpg', sizingMethod='scale')";
-	}
-
-	/* Serve larger image only if needed */
-    @media (min-height: 1px) and (max-height: 480px) {
-        #fbsection1 { 
-            background-image: url(../img/bg/section1-small.jpg); 
-        }
-    }
-
-	@media (min-height: 481px) and (max-height: 720px){
-    	#fbsection1 { 
-    		background-image: url(../img/bg/section1-medium.jpg); 
-    	}
-	}
-
-	@media (min-height: 1081px) and (max-height: 1440px){
-    	#fbsection1 { 
-    		background-image: url(../img/bg/section1-huge.jpg); 
-    	}
 	}
 
 	#fbsection1 h1 {
