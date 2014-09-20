@@ -313,19 +313,19 @@
 	}
 
 	/* Serve larger image only if needed */
-    @media (min-height: 480px) {
+    @media (min-height: 1px) and (max-height: 480px) {
         #fbsection1 { 
             background-image: url(../img/bg/section1-small.jpg); 
         }
     }
 
-	@media (min-height: 720px) {
+	@media (min-height: 481px) and (max-height: 720px){
     	#fbsection1 { 
     		background-image: url(../img/bg/section1-medium.jpg); 
     	}
 	}
 
-	@media (min-height: 1440px) {
+	@media (min-height: 1081px) and (max-height: 1440px){
     	#fbsection1 { 
     		background-image: url(../img/bg/section1-huge.jpg); 
     	}
