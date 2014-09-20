@@ -302,7 +302,7 @@
 ----------------------------------------------------------------------------- */
 
 	#fbsection1 {
-    	background-image: url(../img/bg/section1.jpg);
+    	background-image: url(../img/bg/section1-small.jpg);
     	height: 100%;
     	max-height: 100%; /* Unsure if I need Max and Min height classes, need to look into this when I can do testing */
    	 	min-height: 100%;
@@ -311,6 +311,25 @@
   		transform-style: preserve-3d;
   		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg/section1.jpg', sizingMethod='scale')";
+	}
+
+	/* Serve larger image only if needed */
+	@media (min-height: 720px) {
+    	#fbsection1 { 
+    		background-image: url(../img/bg/section1-medium.jpg); 
+    	}
+	}
+
+	@media (min-height: 1080px) {
+    	#fbsection1 { 
+    		background-image: url(../img/bg/section1-large.jp); 
+    	}
+	}
+
+	@media (min-height: 1440px) {
+    	#fbsection1 { 
+    		background-image: url(../img/bg/section1-huge.jp); 
+    	}
 	}
 
 	#fbsection1 h1 {
