@@ -63,11 +63,11 @@
 
 	@font-face {
   		font-family: 'Yiayiasicons';
-  		src: url('../fonts/yiayiasicons.eot?40453657');
-  		src: url('../fonts/yiayiasicons.eot?40453657#iefix') format('embedded-opentype'),
-        url('../fonts/yiayiasicons.woff?40453657') format('woff'),
-        url('../fonts/yiayiasicons.ttf?40453657') format('truetype'),
-        url('../fonts/yiayiasicons.svg?40453657#yiayiasicons') format('svg');
+  		src: url('../fonts/yiayiasicons.eot');
+  		src: url('../fonts/yiayiasicons.eot#iefix') format('embedded-opentype'),
+        url('../fonts/yiayiasicons.woff') format('woff'),
+        url('../fonts/yiayiasicons.ttf') format('truetype'),
+        url('../fonts/yiayiasicons.svg#yiayiasicons') format('svg');
   		font-weight: normal;
   		font-style: normal;
 	}
