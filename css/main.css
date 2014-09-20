@@ -315,7 +315,7 @@
 	/* Serve larger image only if needed */
     @media (min-height: 480px) {
         #fbsection1 { 
-            background-image: url(../img/bg/section1-small.jp); 
+            background-image: url(../img/bg/section1-small.jpg); 
         }
     }
 
@@ -327,7 +327,7 @@
 
 	@media (min-height: 1440px) {
     	#fbsection1 { 
-    		background-image: url(../img/bg/section1-huge.jp); 
+    		background-image: url(../img/bg/section1-huge.jpg); 
     	}
 	}
 
