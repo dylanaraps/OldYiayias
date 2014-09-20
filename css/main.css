@@ -141,7 +141,7 @@
         -webkit-transform: none; 
 	}
 
-	.navbar-bg {
+	.navbar-bg /* the js code uses this to overide the navbar bg on scroll */ {
     	background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
     	background: rgba(25, 25, 25, .7) !important;
 	}
@@ -440,12 +440,22 @@
 		padding-top: 22%;
 	}
 
-	#fbsection2 .imagegutter {
+	#fbsection2 .imagegutter /* Gutter for y axis of grid */ {
 		padding-top: 12%;
 	}
 
-	#fbsection2 .imgsize {
+	#fbsection2 .imgsize /* Top Padding for the images to keep them inline with the body text. */ {
 		width: 100%;
+	}
+
+	@media (max-width: 1200px) { /* Adjusted values for sm breakpoint */
+		#fbsection2 .imagegrid {
+			padding-top: 25%;
+		}
+
+		#fbsection2 .imagegutter {
+			padding-top: 14%;
+		}
 	}
 
 /* SECTION 3 STYLES
@@ -598,14 +608,14 @@
 	}
 
 	#fbsection6 .imagegutter {
-		padding-top: 27%;
-		padding-left: 10%;
+		padding-top: 26.5%;
+		padding-left: 6%;
 	}
 
 	@media (max-width: 	1200px) {
 		#fbsection6 .imagegutter {
-			padding-top: 25%;
-			padding-left: 5%;
+			padding-top: 31%;
+			padding-left: 6%;
 		}	
 	}
 
