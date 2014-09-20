@@ -21,7 +21,7 @@ These files are all edited to suit the project I am working on. I will release a
 This project also still has some unfixed bugs so use at your own risk. 
 
 
-Licensed under MIT.
+Licensed under MIT
 ==========================
 Feel free to take this and modify it to suit your needs. 
 
