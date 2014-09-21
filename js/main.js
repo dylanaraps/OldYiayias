@@ -22,7 +22,7 @@ $(window).scroll(function() {
     }
 });
 
-window.sr = new scrollReveal({ mobile: false });
+window.sr = new scrollReveal({ mobile: false })
 
 
 
