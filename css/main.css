@@ -266,6 +266,10 @@
     		background: rgba(25, 25, 25, .7) !important;
     		border: transparent !important;
 		}
+
+		#video-container {
+			display: none !important;
+		}
 	}
 
 	@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
@@ -278,24 +282,40 @@
     		background: rgba(25, 25, 25, .7) !important;
     		border: transparent !important;
 		}
+
+		#video-container {
+			display: none !important;
+		}
 	}
 
 	@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
 		.fixedbackgrounds section {
         	background-attachment: scroll;
     	}
+
+    	#video-container {
+			display: none !important;
+		}
 	}
 
 	@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
 		.fixedbackgrounds section {
         	background-attachment: scroll;
     	}
+
+    	#video-container {
+			display: none !important;
+		}
 	}
 
 	@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
 		.fixedbackgrounds section {
         	background-attachment: scroll;
     	}
+
+    	#video-container {
+			display: none !important;
+		}
 	}
 
 /* SECTION 1 STYLES
@@ -325,7 +345,7 @@
 	}
 
 	@media screen and (max-device-width: 800px) { /* More media queries above in Section Styles for ipads. */ 
-		#video-containers {
+		#video-container {
 			display: none !important;
 		}
 	}
