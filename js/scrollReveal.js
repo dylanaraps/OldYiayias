@@ -54,7 +54,7 @@ window.scrollReveal = (function( window ) {
        * check for a mobile browsers, and pull the plug if on
        * a mobile device and config.mobile is currently false
        */
-      if ( self.isMobile() && !self.config.mobile ) {
+      if ( self.isMobile() && !self.config.any ) {
 
         return /* Goodbye… */
 
