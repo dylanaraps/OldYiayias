@@ -23,4 +23,5 @@ $(window).scroll(function() {
 });
 
 
-window.scrollReveal = new scrollReveal();
+window.sr = new scrollReveal({ mobile: false });
+
