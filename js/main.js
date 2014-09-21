@@ -24,5 +24,9 @@ $(window).scroll(function() {
 
 window.sr = new scrollReveal({ mobile: false })
 
-
+$(document).ready(function(){
+if (isMobile.any) {
+  $('script[src="js/scrollReveal.min.js"]').remove();
+}
+});
 
