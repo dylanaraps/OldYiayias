@@ -21,3 +21,5 @@ $(window).scroll(function() {
         $(".navbar-default").removeClass("navbar-bg");
     }
 });
+
+
