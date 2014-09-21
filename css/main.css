@@ -111,6 +111,10 @@
 		overflow-x: hidden !important; /* Needed otherwise there's a horizontal scroll bar on mobile. */
 	}
 
+	section, #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+
 	/* Global Transition Style for all links (.navbar-default .navbar-toggle is for mobile) */
 	a, .navbar-default, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a:after, .navbar-default .navbar-toggle {
 		-o-transition:.3s;
@@ -619,13 +623,13 @@
 	}
 
 	#fbsection6 .imagegutter {
-		padding-top: 26.5%;
+		padding-top: 28%;
 		padding-left: 6%;
 	}
 
 	@media (max-width: 	1200px) {
 		#fbsection6 .imagegutter {
-			padding-top: 31%;
+			padding-top: 32%;
 			padding-left: 6%;
 		}	
 	}
