@@ -22,11 +22,11 @@ $(window).scroll(function() {
     }
 });
 
-window.sr = new scrollReveal({ mobile: false })
-
 $(document).ready(function(){
-if (isMobile.any) {
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   $('script[src="js/scrollReveal.min.js"]').remove();
 }
 });
+
+window.sr = new scrollReveal({ mobile: false })
 
