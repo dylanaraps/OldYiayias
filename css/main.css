@@ -437,7 +437,7 @@
     	padding-bottom: 5%;
 	}
 
-	#fbsection2 h1 {
+	#fbsection2 h2 {
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
@@ -445,7 +445,7 @@
 	}
 
 	@media (max-width: 500px) {
-		#fbsection2 h1 {
+		#fbsection2 h2 {
 			padding-top: 10%;
 		}
 	}
@@ -489,7 +489,7 @@
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
     }
 
- 	#fbsection3 h1 {
+ 	#fbsection3 h2 {
  		font-size: 6em;
  		font-family: 'Yiayias';
  		font-weight: 700;
@@ -498,25 +498,25 @@
  	}
 
  	@media (max-width: 900px) {
-		#fbsection3 h1 {
+		#fbsection3 h2 {
 			font-size: 4.9em;
 		}
 	}
 
 	@media (max-width: 760px) {
-		#fbsection3 h1 {
+		#fbsection3 h2 {
 			font-size: 4em;
 		}
 	}
 
 	@media (max-width: 600px) {
-		#fbsection3 h1 {
+		#fbsection3 h2 {
 			font-size: 3em;
 		}
 	}
 
 	@media (max-width: 460px) {
-		#fbsection3 h1 {
+		#fbsection3 h2 {
 			font-size: 2em;
 		}
 	}
@@ -528,7 +528,7 @@
     	padding-bottom: 5%;
 	}
 
-	#fbsection4 h1 {
+	#fbsection4 h2 {
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
@@ -536,7 +536,7 @@
 	}
 
 	@media (max-width: 500px) {
-		#fbsection4 h1 {
+		#fbsection4 h2 {
 			padding-top: 10%;
 		}
 	}
@@ -569,7 +569,7 @@
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section2.jpg', sizingMethod='scale')";
 	}
 
- 	#fbsection5 h1 {
+ 	#fbsection5 h2 {
  		font-size: 6em;
  		font-family: 'Yiayias';
  		font-weight: 700;
@@ -578,25 +578,25 @@
  	}
 
  	@media (max-width: 900px) {
-		#fbsection5 h1 {
+		#fbsection5 h2 {
 			font-size: 4.9em;
 		}
 	}
 
 	@media (max-width: 760px) {
-		#fbsection5 h1 {
+		#fbsection5 h2 {
 			font-size: 4em;
 		}
 	}
 
 	@media (max-width: 600px) {
-		#fbsection5 h1 {
+		#fbsection5 h2 {
 			font-size: 3em;
 		}
 	}
 
 	@media (max-width: 460px) {
-		#fbsection5 h1 {
+		#fbsection5 h2 {
 			font-size: 2em;
 		}
 	}
@@ -608,7 +608,7 @@
     	padding-bottom: 5%;
 	}
 
-	#fbsection6 h1 {
+	#fbsection6 h2 {
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
@@ -616,7 +616,7 @@
 	}
 
 	@media (max-width: 500px) {
-		#fbsection4 h1 {
+		#fbsection4 h2 {
 			padding-top: 10%;
 		}
 	}
@@ -664,7 +664,7 @@
 		background-image: url("../images/misc/footer.png");
 	}
 
- 	#fbsection7 h1 {
+ 	#fbsection7 h2 {
  		font-size: 3em;
  		font-family: 'Raleway';
  		font-weight: 700;
@@ -689,7 +689,7 @@
  	}
  
  	@media (max-width: 550px) {
-		#fbsection7 h1 {
+		#fbsection7 h2 {
  			font-size: 2em;
  		}
 
