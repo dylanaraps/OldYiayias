@@ -302,13 +302,18 @@
     	}
 	}
 
+	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Fix for chrome being an asshole */
+   		.fixedbackgrounds section {
+        	background-attachment: scroll !important;
+    	}
+	}
+
 /* SECTION 1 STYLES
 ----------------------------------------------------------------------------- */
 	#fbsection1 {
     	height: 100%;
     	max-height: 100%; /* Unsure if I need Max and Min height classes, need to look into this when I can do testing */
    	 	min-height: 100%;
-   	 	overflow: hidden !important;
     	-webkit-transform-style: preserve-3d;
         -moz-transform-style: preserve-3d;
   		transform-style: preserve-3d;
@@ -480,9 +485,9 @@
     	height: 60%;
     	max-height: 60%;
    	 	min-height: 60%;
-   	 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
+	   	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
-	}
+    }
 
  	#fbsection3 h1 {
  		font-size: 6em;
@@ -657,7 +662,6 @@
 	#fbsection7 {
     	background-color: #10285B;
 		background-image: url("../images/misc/footer.png");
-		/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	}
 
  	#fbsection7 h1 {
