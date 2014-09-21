@@ -22,5 +22,9 @@ $(window).scroll(function() {
     }
 });
 
+(function($) {
+'use strict';
 window.sr = new scrollReveal({ mobile: false })
 
+scrollReveal.init();
+});
