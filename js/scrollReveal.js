@@ -54,7 +54,7 @@ window.scrollReveal = (function( window ) {
        * check for a mobile browsers, and pull the plug if on
        * a mobile device and config.mobile is currently false
        */
-      if ( self.isMobile() && !self.config.any ) {
+      if ( self.isMobile() && !self.config.mobile ) {
 
         return /* Goodbye… */
 
@@ -454,7 +454,7 @@ window.scrollReveal = (function( window ) {
        * Want to disable delay on mobile devices? It might provide a better UX
        * considering the animations are paused during scroll… uncomment the line below
        */
-      //if ( self.isMobile() && self.config.mobile ) { delay = 0; }
+      if ( self.isMobile() && self.config.mobile ) { delay = 0; }
 
       transition = '-webkit-transition: -webkit-transform ' + dur + ' ' + easing + ' ' + delay + ', opacity ' + dur + ' ' + easing + ' ' + delay + ';' +
                            'transition: transform '         + dur + ' ' + easing + ' ' + delay + ', opacity ' + dur + ' ' + easing + ' ' + delay + ';' +
