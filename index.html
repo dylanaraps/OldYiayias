@@ -34,6 +34,12 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.min.css">
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'> 
+        <script>$(document).ready(function(){
+                    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                        $('script[src="js/scrollReveal.min.js"]').remove();
+                    }
+                });
+        </script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
