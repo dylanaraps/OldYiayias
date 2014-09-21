@@ -315,6 +315,14 @@
 
 	#video-container {
 		position: absolute;
+		width: 100%;
+		z-index: -1;
+	}
+
+	@media (max-width: 767px) { /* Media Query to hide the video on mobile. */
+		#video-container {
+			display: none;
+		}
 	}
 
 	#fbsection1 h1 {
