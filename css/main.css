@@ -312,6 +312,7 @@
 ----------------------------------------------------------------------------- */
 	#fbsection1 {
     	height: 100%;
+    	background-image: url(../images/bg/section1.jpg);
     	max-height: 100%; /* Unsure if I need Max and Min height classes, need to look into this when I can do testing */
    	 	min-height: 100%;
     	-webkit-transform-style: preserve-3d;
