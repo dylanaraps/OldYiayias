@@ -148,19 +148,19 @@
 	/* title */
 	.navbar-default .navbar-brand {
 		font-family: 'Yiayias';
-		font-size: 1.5em;
+		font-size: 1.6em;
     	color: #FFFFFF;
 	}
 
 	.navbar-default .navbar-brand:hover,
 	.navbar-default .navbar-brand:focus {
-    	color: #809EB7;
+    	color: #FFFFFF;
 	}
 	
 	/* link */
 	.navbar-default .navbar-nav > li > a {
 		font-family: 'Raleway', sans-serif;
-		font-size: 1em;
+		font-size: 1.1em;
     	color: #FFFFFF;
 	}
 
@@ -182,7 +182,7 @@
 
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus {
-    	color: #809EB7;
+    	color: #FFFFFF;
 	}
 
 	.navbar-default .navbar-nav > .open > a, 
