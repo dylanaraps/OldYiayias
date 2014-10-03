@@ -336,6 +336,7 @@
 		left: 0;
 		overflow: hidden;
 		display: block;
+		z-index: -1;
 	}
 
 	#video-container > video {
