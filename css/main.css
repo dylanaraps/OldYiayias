@@ -270,6 +270,10 @@
     		background: rgba(25, 25, 25, .7) !important;
     		border: transparent !important;
 		}
+
+		#video-container {
+			display: none;
+		}
 	}
 
 	@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
@@ -281,6 +285,10 @@
     		background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
     		background: rgba(25, 25, 25, .7) !important;
     		border: transparent !important;
+		}
+
+		#video-container {
+			display: none;
 		}
 	}
 
@@ -321,7 +329,6 @@
   		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
         overflow-y: hidden !important; /* Needed otherwise there's a horizontal scroll bar on mobile. */
-        z-index: 1;
 	}
 
 	@media (max-width: 991px) {
