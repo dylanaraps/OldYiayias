@@ -3,49 +3,6 @@
    ==========================================================================
    ==========================================================================
    ==========================================================================
-   CONTENTS (Use ctrl + f to find styles)
-   ==========================================================================
-   ==========================================================================
-
-   FONT IMPORT STYLES
-   ==========================================================================
-
-   ICON FONT STYLES
-   ==========================================================================
-
-   BODY STYLES
-   ==========================================================================
-
-   CENTERING STYLES
-   ==========================================================================
-
-   NAVBAR STYLES
-   ==========================================================================
-
-   SECTION STYLES
-   ==========================================================================
-
-   SECTION 1 STYLES
-   ==========================================================================
-
-   SECTION 2 STYLES
-   ==========================================================================
-
-   SECTION 3 STYLES
-   ==========================================================================
-
-   SECTION 4 STYLES
-   ==========================================================================
-
-   SECTION 5 STYLES
-   ==========================================================================
-
-   SECTION 6 STYLES
-   ==========================================================================
-
-   SECTION 7 STYLES
-   ========================================================================== 
-   */
 
 /* FONT IMPORT STYLES
 ----------------------------------------------------------------------------- */
@@ -315,6 +272,7 @@
         	background-attachment: scroll !important;
     	}
 	}
+
 
 /* SECTION 1 STYLES
 ----------------------------------------------------------------------------- */
@@ -636,12 +594,6 @@
 		padding-top: 10%;
 	}
 
-	@media (max-width: 500px) {
-		#fbsection4 h2 {
-			padding-top: 10%;
-		}
-	}
-
 	#fbsection6 p {
 		font-size: 1.5em;
 		font-family: 'Raleway';
@@ -676,16 +628,22 @@
 		padding: 10px;
 	}
  
-
-
-/* SECTION 7 STYLES (Wrapped in a div instead to fix bg)
------------------------------------------------------------------------------ */  
+/* SECTION 7 STYLES
+----------------------------------------------------------------------------- */ 
 	#fbsection7 {
+    	background-color: #FFFFFF;
+    	padding-bottom: 5%;
+	}
+
+	
+/* SECTION FOOTER STYLES (Wrapped in a div instead to fix bg)
+----------------------------------------------------------------------------- */  
+	#fbsectionfooter {
     	background-color: #10285B;
 		background-image: url("../images/misc/footer.png");
 	}
 
- 	#fbsection7 h2 {
+ 	#fbsectionfooter h2 {
  		font-size: 3em;
  		font-family: 'Raleway';
  		font-weight: 700;
@@ -693,37 +651,37 @@
  		text-align: center;
  	}
 
- 	#fbsection7 p {
+ 	#fbsectionfooter p {
  		font-size: 2em;
  		font-family: 'Raleway';
  		color: #FFFFFF;
  		text-align: center;
  	}
 
- 	#fbsection7 p a {
+ 	#fbsectionfooter p a {
  		color: #FFFFFF;
  		text-decoration: none;
  	}
 
- 	#fbsection7 p a:hover {
+ 	#fbsectionfooter p a:hover {
  		color: #809EB7;
  	}
  
  	@media (max-width: 550px) {
-		#fbsection7 h2 {
+		#fbsectionfooter h2 {
  			font-size: 2em;
  		}
 
- 		#fbsection7 p {
+ 		#fbsectionfooter p {
  			font-size: 1.2em;
  		}
 
- 		#fbsection7 .icon-facebook-squared, .icon-mail-squared, .icon-twitter-squared {
+ 		#fbsectionfooter .icon-facebook-squared, .icon-mail-squared, .icon-twitter-squared {
  			font-size: 1.7em;
  		}
 	}
 
-	#fbsection7 li {
+	#fbsectionfooter li {
 		color: #FFFFFF;
 		font-family: 'Raleway';
 		font-size: 1.2em;
