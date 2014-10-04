@@ -321,6 +321,7 @@
   		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
         overflow-y: hidden !important; /* Needed otherwise there's a horizontal scroll bar on mobile. */
+        z-index: 1;
 	}
 
 	@media (max-width: 991px) {
@@ -338,19 +339,17 @@
 		overflow: hidden;
 		display: block;
 		z-index: -1;
-		-webkit-transform-style: preserve-3d;
 	}
 
 	#video-container > video {
 		min-width: 100%;
 		width: auto;
 		object-fit: cover;
-		position:relative;
-		top:0;
-		left:0;
-		display:block;
+		position: relative;
+		top: 0;
+		left: 0;
+		display: block;
 		z-index: -1;
-		-webkit-transform-style: preserve-3d;
 	}
 
 	#fbsection1 h1 {
