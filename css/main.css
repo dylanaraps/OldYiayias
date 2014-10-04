@@ -271,9 +271,9 @@
     		border: transparent !important;
 		}
 
-		#video-container {
-			display: none;
-		}
+		#video-container, #video-container video {
+			display: none !important;
+		} 
 	}
 
 	@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
@@ -287,8 +287,8 @@
     		border: transparent !important;
 		}
 
-		#video-container {
-			display: none;
+		#video-container, #video-container video {
+			display: none !important;
 		}
 	}
 
