@@ -345,8 +345,15 @@
 		color: #FFFFFF;
 	}
 
+	#fbsection1 .fixed-bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
 	@media (max-width: 450px) {
-		#fbsection1 .navbar-fixed-bottom {
+		#fbsection1 .fixed-bottom {
 			display: none;
 		}
 	}
