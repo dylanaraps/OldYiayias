@@ -339,6 +339,18 @@
 		text-align: center;
 	}
 
+	#fbsection1 p {
+		font-family: 'Raleway';
+		font-size: 1.5em;
+		color: #FFFFFF;
+	}
+
+	@media (max-width: 450px) {
+		#fbsection1 .navbar-fixed-bottom {
+			display: none;
+		}
+	}
+
 	#fbsection1 a .icon-angle-down /* Needs a combination of display: inline-block; and text-align: center; to be centered properly */{
 		font-size: 5.5em;
 		color: #FFFFFF;
