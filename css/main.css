@@ -321,7 +321,6 @@
   		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
         overflow-y: hidden !important; /* Needed otherwise there's a horizontal scroll bar on mobile. */
-        z-index: 1000;
 	}
 
 	@media (max-width: 991px) {
@@ -350,6 +349,7 @@
 		left:0;
 		display:block;
 		z-index: -1;
+		-webkit-transform-style: preserve-3d
 	}
 
 	#fbsection1 h1 {
