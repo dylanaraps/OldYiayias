@@ -339,11 +339,16 @@
 		text-align: center;
 	}
 
-	#fbsection1 p {
+	#fbsection1 p a {
 		font-family: 'Raleway';
 		font-size: 1.5em;
 		color: #FFFFFF;
 	}
+
+	#fbsection1 p a:hover {
+		text-decoration: none;
+	}
+
 
 	#fbsection1 .fixed-bottom {
 		position: absolute;
