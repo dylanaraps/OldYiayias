@@ -338,6 +338,7 @@
 		overflow: hidden;
 		display: block;
 		z-index: -1;
+		-webkit-transform-style: preserve-3d;
 	}
 
 	#video-container > video {
@@ -349,7 +350,7 @@
 		left:0;
 		display:block;
 		z-index: -1;
-		-webkit-transform-style: preserve-3d
+		-webkit-transform-style: preserve-3d;
 	}
 
 	#fbsection1 h1 {
