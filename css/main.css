@@ -321,6 +321,7 @@
   		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
         overflow-y: hidden !important; /* Needed otherwise there's a horizontal scroll bar on mobile. */
+        z-index: 1000;
 	}
 
 	@media (max-width: 991px) {
