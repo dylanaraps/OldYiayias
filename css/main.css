@@ -102,10 +102,6 @@
     	background: rgba(25, 25, 25, .7) !important;
     	border: none !important;
 	}
-   
-	.navbar ul.nav li a {
-    	z-index: 1000 !important;
-	}	
 
 	/* title */
 	.navbar-default .navbar-brand {
