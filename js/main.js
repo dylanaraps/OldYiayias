@@ -26,4 +26,3 @@ jQuery(document).ready(function($){
 window.sr = new scrollReveal({ mobile: false })
 scrollReveal.init();
 });
-
