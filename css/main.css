@@ -746,7 +746,7 @@
 	.dropdown-menu {
 		top: 50px;
 		padding-bottom: 10px;
-		min-width: 150px;
+		width: 100%;
 	}
 
 	.dropdown-menu:hover {
