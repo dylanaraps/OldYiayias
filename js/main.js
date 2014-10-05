@@ -26,3 +26,7 @@ jQuery(document).ready(function($){
 window.sr = new scrollReveal({ mobile: false })
 scrollReveal.init();
 });
+
+jQuery(document).ready(function($){
+$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
+});
