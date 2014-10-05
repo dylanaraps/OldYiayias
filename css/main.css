@@ -104,7 +104,7 @@
 	}
    
 	.navbar ul.nav li a {
-    	z-index: 1000;
+    	z-index: 1000 !important;
 	}	
 
 	/* title */
