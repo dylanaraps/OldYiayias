@@ -19,15 +19,15 @@
 	}
 
 	@font-face {
-  		font-family: 'Yiayiasicons';
-  		src: url('../font/yiayiasicons.eot');
-  		src: url('../font/yiayiasicons.eot#iefix') format('embedded-opentype'),
-        url('../fonts/yiayiasicons.woff') format('woff'),
-        url('../fonts/yiayiasicons.ttf') format('truetype'),
-        url('../fonts/yiayiasicons.svg#yiayiasicons') format('svg');
+  		font-family: 'yiayiasicons';
+  		src: url('../fonts/yiayiasicons.eot?35728660');
+  		src: url('../fonts/yiayiasicons.eot?35728660#iefix') format('embedded-opentype'),
+       	url('../fonts/yiayiasicons.woff?35728660') format('woff'),
+       	url('../fonts/yiayiasicons.ttf?35728660') format('truetype'),
+       	url('../fonts/yiayiasicons.svg?35728660#yiayiasicons') format('svg');
   		font-weight: normal;
   		font-style: normal;
-}
+	}
 
 /* ICON FONT STYLES
 ----------------------------------------------------------------------------- */ 
@@ -53,14 +53,14 @@
   		margin-left: .2em; 
 	}
 
-		.icon-warehouse:before { content: '\e800'; } /* '' */
-		.icon-angle-down:before { content: '\e801'; } /* '' */
-		.icon-location:before { content: '\e802'; } /* '' */
-		.icon-facebook-squared:before { content: '\e803'; } /* '' */
-		.icon-mail-squared:before { content: '\e804'; } /* '' */
-		.icon-phone:before { content: '\e805'; } /* '' */
-		.icon-heart:before { content: '\e806'; } /* '' */
-		.icon-twitter-squared:before { content: '\e807'; } /* '' */
+	.icon-mail-squared:before { content: '\e800'; } /* '' */
+	.icon-twitter-squared:before { content: '\e801'; } /* '' */
+	.icon-facebook-squared:before { content: '\e802'; } /* '' */
+	.icon-heart:before { content: '\e803'; } /* '' */
+	.icon-phone:before { content: '\e804'; } /* '' */
+	.icon-location:before { content: '\e805'; } /* '' */
+	.icon-angle-down:before { content: '\e806'; } /* '' */
+	.icon-right:before { content: '\e807'; } /* '' */
 
 /* BODY STYLES
 ----------------------------------------------------------------------------- */
@@ -68,7 +68,7 @@
 		overflow-x: hidden !important; /* Needed otherwise there's a horizontal scroll bar on mobile. */
 	}
 
-	section, #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
+	section, #yiayiassection1, #yiayiassection2, #yiayiassection3, #yiayiassection4, #yiayiassection5, #yiayiassection6, #yiayiassectionfooter {
 		-webkit-transform: translate3d(0, 0, 0);
 	}
 
@@ -148,6 +148,12 @@
     	color: #555;
     	background-color: #D5D5D5;
 	}
+
+	.pappounav a {
+		font-family: 'Yiayias' !important;
+		font-size: 1.4em !important;
+	}
+
 
 	/* mobile version */
 	.navbar-default .navbar-toggle {
@@ -276,7 +282,7 @@
 
 /* SECTION 1 STYLES
 ----------------------------------------------------------------------------- */
-	#fbsection1 {
+	#yiayiassection1 {
     	height: 100%;
     	background-image: url(../images/bg/section1.jpg);
     	max-height: 100%; /* Unsure if I need Max and Min height classes, need to look into this when I can do testing */
@@ -290,7 +296,7 @@
 	}
 
 	@media (max-width: 991px) {
-		#fbsection1 {
+		#yiayiassection1 {
 			background-image: url(../images/bg/section1.jpg);
 		}
 	}
@@ -317,14 +323,14 @@
 		z-index: -1;
 	}
 
-	#fbsection1 h1 {
+	#yiayiassection1 h1 {
 		font-family: 'Yiayias';
 		font-size: 12em;
 		color: #FFFFFF;
 		text-align: center;
 	}
 
-	#fbsection1 h2 {
+	#yiayiassection1 h2 {
 		font-family: 'Raleway';
 		font-size: 4em;
 		font-weight: 700;
@@ -332,25 +338,25 @@
 		text-align: center;
 	}
 
-	#fbsection1 h3 {
+	#yiayiassection1 h3 {
 		font-family: 'Raleway';
 		font-size: 3em;
 		color: #FFFFFF;
 		text-align: center;
 	}
 
-	#fbsection1 p a {
+	#yiayiassection1 p a {
 		font-family: 'Raleway';
 		font-size: 1.5em;
 		color: #FFFFFF;
 	}
 
-	#fbsection1 p a:hover {
+	#yiayiassection1 p a:hover {
 		text-decoration: none;
 	}
 
 
-	#fbsection1 .fixed-bottom {
+	#yiayiassection1 .fixed-bottom {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -360,12 +366,12 @@
 	}
 
 	@media (max-width: 450px) {
-		#fbsection1 .fixed-bottom {
+		#yiayiassection1 .fixed-bottom {
 			display: none;
 		}
 	}
 
-	#fbsection1 a .icon-angle-down /* Needs a combination of display: inline-block; and text-align: center; to be centered properly */{
+	#yiayiassection1 a .icon-angle-down /* Needs a combination of display: inline-block; and text-align: center; to be centered properly */{
 		font-size: 5.5em;
 		color: #FFFFFF;
 		text-align: center;
@@ -374,75 +380,75 @@
     	line-height: 0;
 	}
 
-	#fbsection1 a .icon-angle-down:hover {
+	#yiayiassection1 a .icon-angle-down:hover {
 		color: #DBDBDB;
 	}
 
 	/* These Media Queries make the h1,h2 and h3 tags resize on mobile screens. */
 	@media (max-width: 767px) {
-		#fbsection1 h1 {
+		#yiayiassection1 h1 {
 			font-size: 9em;
 		}
 
-		#fbsection1 h2 {
+		#yiayiassection1 h2 {
 			font-size: 3em;
 		}
 
-		#fbsection1 h3 {
+		#yiayiassection1 h3 {
 			font-size: 2em;
 		}
 	}
 
 	@media (max-width: 520px) {
-		#fbsection1 h1 {
+		#yiayiassection1 h1 {
 			font-size: 7em;
 		}
 
-		#fbsection1 h2 {
+		#yiayiassection1 h2 {
 			font-size: 3em;
 		}
 
-		#fbsection1 h3 {
+		#yiayiassection1 h3 {
 			font-size: 2em;
 		}
 	}
 
 	@media (max-width: 400px) {
-		#fbsection1 h1 {
+		#yiayiassection1 h1 {
 			font-size: 5.9em;
 		}
 
-		#fbsection1 h2 {
+		#yiayiassection1 h2 {
 			font-size: 3em;
 		}
 
-		#fbsection1 h3 {
+		#yiayiassection1 h3 {
 			font-size: 2em;
 		}
 	}
 
 	@media (max-width: 350px) {
-		#fbsection1 h1 {
+		#yiayiassection1 h1 {
 			font-size: 5em;
 		}
 
-		#fbsection1 h2 {
+		#yiayiassection1 h2 {
 			font-size: 2.5em;
 		}
 
-		#fbsection1 h3 {
+		#yiayiassection1 h3 {
 			font-size: 2em;
 		}
 	}
 
 /* SECTION 2 STYLES
 ----------------------------------------------------------------------------- */
-	#fbsection2 {
+	#yiayiassection2 {
     	background-color: #FFFFFF;
     	padding-bottom: 5%;
 	}
 
-	#fbsection2 h2 {
+	#yiayiassection2 h2 {
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
@@ -450,42 +456,42 @@
 	}
 
 	@media (max-width: 500px) {
-		#fbsection2 h2 {
+		#yiayiassection2 h2 {
 			padding-top: 10%;
 		}
 	}
 
-	#fbsection2 p {
+	#yiayiassection2 p {
 		font-size: 1.5em;
 		font-family: 'Raleway';
 		text-align: justify;
 	}
 
-	#fbsection2 .imagegrid {
+	#yiayiassection2 .imagegrid {
 		padding-top: 22%;
 	}
 
-	#fbsection2 .imagegutter /* Gutter for y axis of grid */ {
+	#yiayiassection2 .imagegutter /* Gutter for y axis of grid */ {
 		padding-top: 12%;
 	}
 
-	#fbsection2 .imgsize /* Top Padding for the images to keep them inline with the body text. */ {
+	#yiayiassection2 .imgsize /* Top Padding for the images to keep them inline with the body text. */ {
 		width: 100%;
 	}
 
 	@media (max-width: 1200px) { /* Adjusted values for sm breakpoint */
-		#fbsection2 .imagegrid {
+		#yiayiassection2 .imagegrid {
 			padding-top: 25%;
 		}
 
-		#fbsection2 .imagegutter {
+		#yiayiassection2 .imagegutter {
 			padding-top: 14%;
 		}
 	}
 
 /* SECTION 3 STYLES
 ----------------------------------------------------------------------------- */
-	#fbsection3 {
+	#yiayiassection3 {
     	background-image: url(../images/bg/section2.jpg);
     	height: 60%;
     	max-height: 60%;
@@ -494,7 +500,7 @@
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
     }
 
- 	#fbsection3 h2 {
+ 	#yiayiassection3 h2 {
  		font-size: 6em;
  		font-family: 'Yiayias';
  		font-weight: 700;
@@ -503,37 +509,37 @@
  	}
 
  	@media (max-width: 900px) {
-		#fbsection3 h2 {
+		#yiayiassection3 h2 {
 			font-size: 4.9em;
 		}
 	}
 
 	@media (max-width: 760px) {
-		#fbsection3 h2 {
+		#yiayiassection3 h2 {
 			font-size: 4em;
 		}
 	}
 
 	@media (max-width: 600px) {
-		#fbsection3 h2 {
+		#yiayiassection3 h2 {
 			font-size: 3em;
 		}
 	}
 
 	@media (max-width: 460px) {
-		#fbsection3 h2 {
+		#yiayiassection3 h2 {
 			font-size: 2em;
 		}
 	}
 
 /* SECTION 4 STYLES
 ----------------------------------------------------------------------------- */ 
-	#fbsection4 {
+	#yiayiassection4 {
     	background-color: #FFFFFF;
     	padding-bottom: 5%;
 	}
 
-	#fbsection4 h2 {
+	#yiayiassection4 h2 {
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
@@ -541,22 +547,22 @@
 	}
 
 	@media (max-width: 500px) {
-		#fbsection4 h2 {
+		#yiayiassection4 h2 {
 			padding-top: 10%;
 		}
 	}
 
-	#fbsection4 p {
+	#yiayiassection4 p {
 		font-size: 1.5em;
 		font-family: 'Raleway';
 		text-align: justify;
 	}
 
-	#fbsection4 .imagegutter {
+	#yiayiassection4 .imagegutter {
 		padding-top: 8%;
 	}
 
-	#fbsection4 .imgsize {
+	#yiayiassection4 .imgsize {
 		width: 100%;
 		display: block;
 		margin-left: auto;
@@ -565,7 +571,7 @@
  
 /* SECTION 5 STYLES
 ----------------------------------------------------------------------------- */ 
-	#fbsection5 {
+	#yiayiassection5 {
     	background-image: url(../images/bg/section3.jpg);
     	height: 60%;
     	max-height: 60%;
@@ -574,7 +580,7 @@
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section2.jpg', sizingMethod='scale')";
 	}
 
- 	#fbsection5 h2 {
+ 	#yiayiassection5 h2 {
  		font-size: 6em;
  		font-family: 'Yiayias';
  		font-weight: 700;
@@ -583,63 +589,63 @@
  	}
 
  	@media (max-width: 900px) {
-		#fbsection5 h2 {
+		#yiayiassection5 h2 {
 			font-size: 4.9em;
 		}
 	}
 
 	@media (max-width: 760px) {
-		#fbsection5 h2 {
+		#yiayiassection5 h2 {
 			font-size: 4em;
 		}
 	}
 
 	@media (max-width: 600px) {
-		#fbsection5 h2 {
+		#yiayiassection5 h2 {
 			font-size: 3em;
 		}
 	}
 
 	@media (max-width: 460px) {
-		#fbsection5 h2 {
+		#yiayiassection5 h2 {
 			font-size: 2em;
 		}
 	}
 
 /* SECTION 6 STYLES
 ----------------------------------------------------------------------------- */ 
-	#fbsection6 {
+	#yiayiassection6 {
     	background-color: #FFFFFF;
     	padding-bottom: 5%;
 	}
 
-	#fbsection6 h2 {
+	#yiayiassection6 h2 {
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
 		padding-top: 10%;
 	}
 
-	#fbsection6 p {
+	#yiayiassection6 p {
 		font-size: 1.5em;
 		font-family: 'Raleway';
 		text-align: justify;
 	}
 
-	#fbsection6 .imagegutter {
+	#yiayiassection6 .imagegutter {
 		padding-top: 28%;
 		padding-left: 6%;
 	}
 
 	@media (max-width: 	1200px) {
-		#fbsection6 .imagegutter {
+		#yiayiassection6 .imagegutter {
 			padding-top: 32%;
 			padding-left: 6%;
 		}	
 	}
 
 	@media (max-width: 	992px) {
-		#fbsection6 .imagegutter {
+		#yiayiassection6 .imagegutter {
 			padding-top: 2%;
 			padding-left: 0%;
 			width: 70%;
@@ -649,14 +655,14 @@
 		}	
 	}
 
-	#fbsection6 .imgsize {
+	#yiayiassection6 .imgsize {
 		width: 100%;
 		padding: 10px;
 	}
  
 /* SECTION 7 STYLES
 ----------------------------------------------------------------------------- */ 
-	#fbsection7 {
+	#yiayiassection7 {
     	background-color: #FFFFFF;
     	padding-bottom: 5%;
 	}
@@ -664,12 +670,12 @@
 	
 /* SECTION FOOTER STYLES (Wrapped in a div instead to fix bg)
 ----------------------------------------------------------------------------- */  
-	#fbsectionfooter {
+	#yiayiassectionfooter {
     	background-color: #10285B;
 		background-image: url("../images/misc/footer.png");
 	}
 
- 	#fbsectionfooter h2 {
+ 	#yiayiassectionfooter h2 {
  		font-size: 3em;
  		font-family: 'Raleway';
  		font-weight: 700;
@@ -677,37 +683,41 @@
  		text-align: center;
  	}
 
- 	#fbsectionfooter p {
+ 	#yiayiassectionfooter p {
  		font-size: 2em;
  		font-family: 'Raleway';
  		color: #FFFFFF;
  		text-align: center;
  	}
 
- 	#fbsectionfooter p a {
+ 	#yiayiassectionfooter p a {
  		color: #FFFFFF;
  		text-decoration: none;
  	}
 
- 	#fbsectionfooter p a:hover {
+ 	#yiayiassectionfooter p a:hover {
  		color: #809EB7;
+ 	}
+
+ 	#yiayiassectionfooter .icon-facebook-squared, .icon-mail-squared, .icon-twitter-squared {
+ 		font-size: 1.5em;
  	}
  
  	@media (max-width: 550px) {
-		#fbsectionfooter h2 {
+		#yiayiassectionfooter h2 {
  			font-size: 2em;
  		}
 
- 		#fbsectionfooter p {
+ 		#yiayiassectionfooter p {
  			font-size: 1.2em;
  		}
 
- 		#fbsectionfooter .icon-facebook-squared, .icon-mail-squared, .icon-twitter-squared {
+ 		#yiayiassectionfooter .icon-facebook-squared, .icon-mail-squared, .icon-twitter-squared {
  			font-size: 1.7em;
  		}
 	}
 
-	#fbsectionfooter li {
+	#yiayiassectionfooter li {
 		color: #FFFFFF;
 		font-family: 'Raleway';
 		font-size: 1.2em;
@@ -716,5 +726,5 @@
 	}
 
 
-/* BELOW LINE IS START FOR EXTERNAL CSS (CSS FROM LIBRARIES\ETC)
+/* PAPPOU'S SHED STYLES
 ----------------------------------------------------------------------------- */ 
