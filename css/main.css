@@ -176,6 +176,12 @@
     		border: transparent !important;
 		}
 
+		.dropdown-menu {
+			background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
+    		background: rgba(25, 25, 25, .7) !important;
+    		border: transparent !important;
+		}
+
     	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
         	color: transparent;
     	}
@@ -745,18 +751,24 @@
 
 	.dropdown-menu {
 		top: 50px;
+		padding-top: 10px;
 		padding-bottom: 10px;
-		width: 100%;
+		padding-right: 35px;
+		text-align: center;
+		background-color: #FFFFFF;
+		background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
+    	background: rgba(25, 25, 25, .7) !important;
+    	border: transparent !important;
 	}
 
 	.dropdown-menu:hover {
-		background-color: transparent;
 	}
 
 	.pappounav a {
 		font-family: 'Yiayias' !important;
-		font-size: 1.4em !important;
+		font-size: 1.5em !important;
 		color: #FFFFFF !important;
+		text-align: center;
 	}
 
 	@media (max-width: 767px) {
