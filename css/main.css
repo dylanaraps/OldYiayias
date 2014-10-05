@@ -72,10 +72,6 @@
 		-webkit-transform: translate3d(0, 0, 0);
 	}
 
-	.dropdown-backdrop {
-    	position: static !important;
-	}
-
 	/* Global Transition Style for all links (.navbar-default .navbar-toggle is for mobile) */
 	a, .navbar-default, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a:after, .navbar-default .navbar-toggle {
 		-o-transition:.3s;
@@ -751,6 +747,7 @@
 		top: 50px;
 		padding-bottom: 10px;
 		width: 100%;
+		position: absolute !important;
 	}
 
 	.dropdown-menu:hover {
