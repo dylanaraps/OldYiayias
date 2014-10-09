@@ -278,6 +278,14 @@
   		transform-style: preserve-3d;
 	}
 
+	.fixedbackgrounds #yiayiassectionfooter {
+    	background-repeat: repeat;
+    	background-attachment: fixed;
+        -webkit-transform-style: preserve-3d; /* Preserve 3d is a fix for the vertical centering hack blurring the content */
+        -moz-transform-style: preserve-3d;
+  		transform-style: preserve-3d;
+	}
+
 	/* These Media Queries target ios devices and fixes the background images displaying incorrectly due to background-attachment: fixed; 
 	   They force a background-attachment: scroll; making the backgrounds display and function normally. */
 
