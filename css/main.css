@@ -61,6 +61,7 @@
 	.icon-location:before { content: '\e805'; } /* '' */
 	.icon-angle-down:before { content: '\e806'; } /* '' */
 	.icon-right:before { content: '\e807'; } /* '' */
+	.icon-mail-alt:before { content: '\e808'; } /* '' */
 
 /* BODY STYLES
 ----------------------------------------------------------------------------- */
@@ -101,6 +102,59 @@
     	background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
     	background: rgba(25, 25, 25, .7) !important;
     	border: none !important;
+	}
+
+	.navbar-networkpad {
+		margin-top: 30px;
+	}
+
+	.navbar-networkpad-scroll {
+		margin-top: 0;
+	}
+
+	.yiayias-network-kek {
+		background-color: #000000;
+		-webkit-transform: none; 
+		height: 10px !important;
+	}
+
+	.yiayias-network-kek-scroll {
+		display: none;
+	}
+
+
+	#yiayias-network-kek .navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+	#yiayias-network-kek .navbar {min-height:32px !important}
+
+	.yiayias-network {
+		font-size: 1.2em;
+		font-family: 'Raleway';
+		padding-top: 5px;
+		color: #404040;
+	}
+
+	.yiayias-network-yiayias a {
+		font-size: 1em;
+		font-family: 'Yiayias';
+		padding-top: 5px;
+		color: #808080;
+		text-decoration: none;
+	}
+
+	.yiayias-network-pappous a {
+		font-size: 1em;
+		font-family: 'Yiayias';
+		padding-top: 5px;
+		color: #808080;
+		text-decoration: none;
+	}
+
+	.yiayias-network-yiayias a:hover {
+		color: #FFFFFF;
+	}
+
+	.yiayias-network-pappous a:hover {
+		color: #FFFFFF;
 	}
 
 	/* title */
@@ -171,12 +225,6 @@
 
 	@media (max-width: 767px) {
 		.navbar-default /* Makes it so mobiles have a bg behind the nav at all times */ { 
-			background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
-    		background: rgba(25, 25, 25, .7) !important;
-    		border: transparent !important;
-		}
-
-		.dropdown-menu {
 			background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
     		background: rgba(25, 25, 25, .7) !important;
     		border: transparent !important;
@@ -350,6 +398,17 @@
 		font-family: 'Raleway';
 		font-size: 1.5em;
 		color: #FFFFFF;
+	}
+
+	#yiayiassection1 li {
+		font-family: 'Raleway';
+		font-size: 1.6em;
+		color: #FFFFFF;
+		text-align: center;
+	}
+
+	#yiayiassection1 ul {
+		text-align: center;
 	}
 
 	#yiayiassection1 p a:hover {
@@ -664,8 +723,7 @@
 /* SECTION 7 STYLES
 ----------------------------------------------------------------------------- */ 
 	#yiayiassection7 {
-    	background-color: #FFFFFF;
-    	padding-bottom: 5%;
+
 	}
 
 	
@@ -775,3 +833,5 @@
 	.dropdown-menu {
 		padding-left: 15px;
 	}
+
+
