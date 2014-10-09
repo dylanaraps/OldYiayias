@@ -230,6 +230,10 @@
     		border: transparent !important;
 		}
 
+		.yiayias-network-kek {
+			background-color: #000000 !important;
+		}
+
     	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
         	color: transparent;
     	}
@@ -283,6 +287,10 @@
     		border: transparent !important;
 		}
 
+		.yiayias-network-kek {
+			background-color: #000000 !important;
+		}
+
 		#video-container, #video-container video {
 			display: none !important;
 		} 
@@ -297,6 +305,10 @@
     		background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
     		background: rgba(25, 25, 25, .7) !important;
     		border: transparent !important;
+		}
+
+		.yiayias-network-kek {
+			background-color: #000000 !important;
 		}
 
 		#video-container, #video-container video {
