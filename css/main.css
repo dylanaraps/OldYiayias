@@ -130,14 +130,14 @@
 		font-size: 1.2em;
 		font-family: 'Raleway';
 		padding-top: 5px;
-		color: #404040;
+		color: #808080;
 	}
 
 	.yiayias-network-yiayias a {
 		font-size: 1em;
 		font-family: 'Yiayias';
 		padding-top: 5px;
-		color: #808080;
+		color: #A0A0A0;
 		text-decoration: none;
 	}
 
@@ -145,7 +145,7 @@
 		font-size: 1em;
 		font-family: 'Yiayias';
 		padding-top: 5px;
-		color: #808080;
+		color: #A0A0A0;
 		text-decoration: none;
 	}
 
@@ -412,11 +412,16 @@
 		color: #FFFFFF;
 	}
 
-	#yiayiassection1 li {
+	#yiayiassection1 li a {
 		font-family: 'Raleway';
 		font-size: 1.6em;
 		color: #FFFFFF;
 		text-align: center;
+		text-decoration: none;
+	}
+
+	#yiayiassection1 li a:hover {
+		color: #A0A0A0;
 	}
 
 	#yiayiassection1 ul {
@@ -450,9 +455,14 @@
         display: inline-block; 
     	width: 100%;
     	line-height: 0;
+    	-o-transition:.3s;
+        -ms-transition:.3s;
+        -moz-transition:.3s;
+        -webkit-transition:.3s;
+        transition:.3s;
 	}
 
-	#yiayiassection1 a .icon-angle-down:hover {
+	#yiayiassection1 .icon-angle-down:hover {
 		color: #CECECE;
 	}
 
