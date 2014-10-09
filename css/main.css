@@ -122,9 +122,14 @@
 		display: none;
 	}
 
+	#yiayias-network-kek .navbar-nav > li > a {
+		padding-top: 5px !important; 
+		padding-bottom: 5px !important;
+	}
 
-	#yiayias-network-kek .navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
-	#yiayias-network-kek .navbar {min-height:32px !important}
+	#yiayias-network-kek .navbar {
+		min-height:32px !important
+	}
 
 	.yiayias-network {
 		font-size: 1.2em;
