@@ -307,6 +307,10 @@
 		#video-container, #video-container video {
 			display: none !important;
 		} 
+
+		#yiayiassection1 a .icon-angle-down {
+			display: none;
+		}
 	}
 
 	@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
