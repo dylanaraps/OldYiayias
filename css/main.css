@@ -310,7 +310,11 @@
 
 		#video-container, #video-container video {
 			display: none !important;
-		} 
+		}
+
+		 #yiayiassectionfooter {
+        	background-attachment: scroll !important;
+    	}
 	}
 
 	@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
@@ -335,11 +339,19 @@
 		.ipad-bottom-padding {
 			padding-bottom: 12px;
 		}
+
+		#yiayiassectionfooter {
+        	background-attachment: scroll !important;
+    	}
 	}
 
 	@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
 		.fixedbackgrounds section {
         	background-attachment: scroll;
+    	}
+
+    	#yiayiassectionfooter {
+        	background-attachment: scroll !important;
     	}
 	}
 
@@ -347,16 +359,28 @@
 		.fixedbackgrounds section {
         	background-attachment: scroll;
     	}
+
+    	#yiayiassectionfooter {
+        	background-attachment: scroll !important;
+    	}
 	}
 
 	@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
 		.fixedbackgrounds section {
         	background-attachment: scroll;
     	}
+
+    	#yiayiassectionfooter {
+        	background-attachment: scroll !important;
+    	}
 	}
 
 	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Fix for chrome being an asshole */
    		.fixedbackgrounds section {
+        	background-attachment: scroll !important;
+    	}
+
+    	#yiayiassectionfooter {
         	background-attachment: scroll !important;
     	}
 	}
