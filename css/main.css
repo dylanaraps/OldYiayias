@@ -437,10 +437,14 @@
 
 	#yiayiassection1 li a {
 		font-family: 'Raleway';
-		font-size: 1.6em;
 		color: #FFFFFF;
 		text-align: center;
 		text-decoration: none;
+	}
+
+	#yiayiassection1 li {
+		font-size: 1.6em;
+		color: #FFFFFF;
 	}
 
 	#yiayiassection1 li a:hover {
