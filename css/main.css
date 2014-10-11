@@ -82,6 +82,10 @@
         transition:.3s;
 	}
 
+	.heading-underline {
+		border-bottom: 10px solid #FFFFFF;
+	}
+
 /* CENTERING STYLES (Used vertically center almost everything you see on the page.)
 ----------------------------------------------------------------------------- */
 	.verticalcenter {
@@ -601,7 +605,7 @@
 
  	#yiayiassection3 h2 {
  		font-size: 6em;
- 		font-family: 'Yiayias';
+ 		font-family: 'Raleway';
  		font-weight: 700;
  		color: #FFFFFF;
  		text-align: center;
@@ -681,7 +685,7 @@
 
  	#yiayiassection5 h2 {
  		font-size: 6em;
- 		font-family: 'Yiayias';
+ 		font-family: 'Raleway';
  		font-weight: 700;
  		color: #FFFFFF;
  		text-align: center;
