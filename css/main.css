@@ -96,6 +96,14 @@
         -ms-transform: translateY(-50%);
 	}
 
+	.verticalcenter-section1 {
+ 	 	position: relative;
+  		top: 50%;
+  		transform: translateY(-50%);
+  		-webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+	}
+
 /* NAVBAR STYLES (Overides to change navbar color on scroll)
 ----------------------------------------------------------------------------- */
 	.affix, .navbar-fixed-top {
@@ -407,6 +415,12 @@
 		}
 	}
 
+	.hr-heading {
+		border-width: 5px 0;
+		width: 110px;
+		display: inline-block;
+	}
+
 	#video-container {
 		position: absolute;
 		top: 0;
@@ -499,19 +513,15 @@
 		}
 
 		#yiayiassection1 h3 {
-		font-family: 'Raleway';
-		font-size: 3em;
-		color: #FFFFFF;
-		text-align: center;
-		line-height: 1.2;
+			font-family: 'Raleway';
+			font-size: 3em;
+			color: #FFFFFF;
+			text-align: center;
+			line-height: 1.2;
 		}
 
-		.verticalcenter {
- 	 	position: relative;
-  		top: 60%;
-  		transform: translateY(-50%);
-  		-webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
+		.verticalcenter-section1 {
+  			top: 60%;
 		}
 	}
 
@@ -604,9 +614,19 @@
 		padding-top: 10%;
 	}
 
+	.heading-underline-h2 {
+		border-bottom: 5px solid #404040;
+		width: 275px;
+	}
+
 	@media (max-width: 500px) {
 		#yiayiassection2 h2 {
 			padding-top: 10%;
+			font-size: 3em;
+		}
+
+		#yiayiassection2 .heading-underline-h2 {
+			width: 200px;
 		}
 	}
 
@@ -614,6 +634,12 @@
 		font-size: 1.5em;
 		font-family: 'Raleway';
 		text-align: justify;
+	}
+
+	@media (max-width: 360px) {
+		#yiayiassection2 p {
+			font-size: 1.3em;
+		}
 	}
 
 	#yiayiassection2 .imagegrid {
@@ -698,6 +724,10 @@
 	@media (max-width: 500px) {
 		#yiayiassection4 h2 {
 			padding-top: 10%;
+			font-size: 3em;
+		}
+		#yiayiassection4 .heading-underline-h2 {
+			width: 220px;
 		}
 	}
 
@@ -705,6 +735,12 @@
 		font-size: 1.5em;
 		font-family: 'Raleway';
 		text-align: justify;
+	}
+
+	@media (max-width: 360px) {
+		#yiayiassection4 p {
+			font-size: 1.3em;
+		}
 	}
 
 	#yiayiassection4 .imagegutter {
@@ -775,10 +811,30 @@
 		padding-top: 10%;
 	}
 
+	#yiayiassection6 .heading-underline-h2 {
+		width: 300px
+	}
+
+	@media (max-width: 500px) {
+		#yiayiassection6 h2 {
+			padding-top: 10%;
+			font-size: 3em;
+		}
+		#yiayiassection6 .heading-underline-h2 {
+			width: 220px;
+		}
+	}
+
 	#yiayiassection6 p {
 		font-size: 1.5em;
 		font-family: 'Raleway';
 		text-align: justify;
+	}
+
+	@media (max-width: 360px) {
+		#yiayiassection6 p {
+			font-size: 1.3em;
+		}
 	}
 
 	#yiayiassection6 .imagegutter {
