@@ -872,13 +872,14 @@
 		padding: 10px;
 	}
  
-/* SECTION 7 STYLES
+/* SECTION BORDER STYLES
 ----------------------------------------------------------------------------- */ 
-	#yiayiassection7 {
-
+	.yiayias-border {
+		height: 5%;
+		background: url('../images/bg/border.png');
+		background-size: 258px 52px;
 	}
 
-	
 /* SECTION FOOTER STYLES (Wrapped in a div instead to fix bg)
 ----------------------------------------------------------------------------- */  
 	#yiayiassectionfooter {
