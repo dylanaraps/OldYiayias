@@ -813,12 +813,12 @@
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
-		padding-top: 10%;
+		padding-top: 5%;
 	}
 
 	.heading-underline-h2-s6 {
 		border-bottom: 4px solid #404040;
-		width: 290px;
+		width: 300px;
 	}
 
 	@media (max-width: 500px) {
@@ -845,13 +845,13 @@
 	}
 
 	#yiayiassection6 .imagegutter {
-		padding-top: 28%;
+		padding-top: 23%;
 		padding-left: 6%;
 	}
 
 	@media (max-width: 	1200px) {
 		#yiayiassection6 .imagegutter {
-			padding-top: 32%;
+			padding-top: 28%;
 			padding-left: 6%;
 		}	
 	}
@@ -875,9 +875,9 @@
 /* SECTION BORDER STYLES
 ----------------------------------------------------------------------------- */ 
 	.yiayias-border {
-		height: 5%;
+		height: 50px;
 		background: url('../images/bg/border.png');
-		background-size: 258px 52px;
+		background-size: 213px 50px;
 	}
 
 /* SECTION FOOTER STYLES (Wrapped in a div instead to fix bg)
