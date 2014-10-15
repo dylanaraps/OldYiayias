@@ -395,7 +395,7 @@
 		font-size: 4em;
 		font-family: 'Raleway';
 		font-weight: 700;
-		padding-top: 25px;
+		padding-top: 30px;
 	}
 
 	@media (max-width: 500px) {
@@ -797,7 +797,7 @@
 	}
 
 	#yiayiassection6 .imagegutter {
-		margin-top: 22%;
+		margin-top: 23%;
 	}
 
 	@media (max-width: 	1200px) {
