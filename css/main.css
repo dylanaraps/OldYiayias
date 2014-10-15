@@ -82,21 +82,9 @@
         transition:.3s;
 	}
 
-	.heading-underline {
-		border-bottom: 10px solid #FFFFFF;
-	}
-
 /* CENTERING STYLES (Used vertically center almost everything you see on the page.)
 ----------------------------------------------------------------------------- */
-	.verticalcenter {
- 	 	position: relative;
-  		top: 50%;
-  		transform: translateY(-50%);
-  		-webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-	}
-
-	.verticalcenter-section1 {
+	.verticalcenter, .verticalcenter-section1, .verticalcenter-section35 {
  	 	position: relative;
   		top: 50%;
   		transform: translateY(-50%);
@@ -325,7 +313,7 @@
     	}
     	
     	#yiayiassection3 h2 {
- 			font-size: 4em;
+ 			font-size: 4 em;
  		}
 	}
 
@@ -401,6 +389,42 @@
     	}
 	}
 
+/* SECTION TYPOGRAPHY STYLES
+----------------------------------------------------------------------------- */
+	#yiayiassection2 h2, #yiayiassection4 h2, #yiayiassection6 h2 {
+		font-size: 4em;
+		font-family: 'Raleway';
+		font-weight: 700;
+		padding-top: 25px;
+	}
+
+	@media (max-width: 500px) {
+		#yiayiassection2 h2, #yiayiassection4 h2, #yiayiassection6 h2 {
+			font-size: 3em;
+		}
+	}
+
+	#yiayiassection2 p, #yiayiassection4 p, #yiayiassection6 p {
+		font-size: 1.5em;
+		font-family: 'Raleway';
+		text-align: justify;
+	}
+
+	@media (max-width: 360px) {
+		#yiayiassection2 p, #yiayiassection4 p, #yiayiassection6 p {
+			font-size: 1.3em;
+		}
+	}
+
+	.heading-underline {
+		border-bottom: 10px solid #FFFFFF;
+	}
+
+	@media (max-width: 460px) {
+		.heading-underline {
+			border-bottom: 5px solid #FFFFFF;
+		}
+	}
 
 /* SECTION 1 STYLES
 ----------------------------------------------------------------------------- */
@@ -427,28 +451,6 @@
 		border-width: 5px 0;
 		width: 110px;
 		display: inline-block;
-	}
-
-	#video-container {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		overflow: hidden;
-		display: block;
-		z-index: -1;
-	}
-
-	#video-container > video {
-		min-width: 100%;
-		width: auto;
-		object-fit: cover;
-		position: relative;
-		top: 0;
-		left: 0;
-		display: block;
-		z-index: -1;
 	}
 
 	#yiayiassection1 h1 {
@@ -615,43 +617,19 @@
     	padding-bottom: 5%;
 	}
 
-	#yiayiassection2 h2 {
-		font-size: 4em;
-		font-family: 'Raleway';
-		font-weight: 700;
-		padding-top: 9%;
-	}
-
 	.heading-underline-h2 {
 		border-bottom: 4px solid #404040;
 		width: 250px;
 	}
 
 	@media (max-width: 500px) {
-		#yiayiassection2 h2 {
-			padding-top: 10%;
-			font-size: 3em;
-		}
-
 		.heading-underline-h2 {
 			width: 190px;
 		}
 	}
 
-	#yiayiassection2 p {
-		font-size: 1.5em;
-		font-family: 'Raleway';
-		text-align: justify;
-	}
-
-	@media (max-width: 360px) {
-		#yiayiassection2 p {
-			font-size: 1.3em;
-		}
-	}
-
 	#yiayiassection2 .imagegrid {
-		padding-top: 22%;
+		margin-top: 17%;
 	}
 
 	#yiayiassection2 .imagegutter /* Gutter for y axis of grid */ {
@@ -664,11 +642,17 @@
 
 	@media (max-width: 1200px) { /* Adjusted values for sm breakpoint */
 		#yiayiassection2 .imagegrid {
-			padding-top: 25%;
+			margin-top: 21%;
 		}
 
 		#yiayiassection2 .imagegutter {
 			padding-top: 14%;
+		}
+	}
+
+	@media (max-width: 990px) {
+		#yiayiassection2 .imagegrid {
+			margin-top: 0;
 		}
 	}
 
@@ -715,18 +699,17 @@
 		}
 	}
 
+	@media (max-width: 360px) {
+		.verticalcenter-section35 {
+  			top: 45%;
+		}
+	}
+
 /* SECTION 4 STYLES
 ----------------------------------------------------------------------------- */ 
 	#yiayiassection4 {
     	background-color: #FFFFFF;
     	padding-bottom: 5%;
-	}
-
-	#yiayiassection4 h2 {
-		font-size: 4em;
-		font-family: 'Raleway';
-		font-weight: 700;
-		padding-top: 3%;
 	}
 
 	.heading-underline-h2-s4 {
@@ -735,29 +718,9 @@
 	}
 
 	@media (max-width: 500px) {
-		#yiayiassection4 h2 {
-			padding-top: 10%;
-			font-size: 3em;
-		}
 		.heading-underline-h2-s4 {
 			width: 210px;
 		}
-	}
-
-	#yiayiassection4 p {
-		font-size: 1.5em;
-		font-family: 'Raleway';
-		text-align: justify;
-	}
-
-	@media (max-width: 360px) {
-		#yiayiassection4 p {
-			font-size: 1.3em;
-		}
-	}
-
-	#yiayiassection4 .imagegutter {
-		padding-top: 8%;
 	}
 
 	#yiayiassection4 .imgsize {
@@ -765,6 +728,10 @@
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	#yiayiassection4 .imagegutter {
+		margin-top: 5%;
 	}
  
 /* SECTION 5 STYLES
@@ -817,61 +784,35 @@
     	padding-bottom: 5%;
 	}
 
-	#yiayiassection6 h2 {
-		font-size: 4em;
-		font-family: 'Raleway';
-		font-weight: 700;
-		padding-top: 5%;
-	}
-
 	.heading-underline-h2-s6 {
 		border-bottom: 4px solid #404040;
 		width: 300px;
 	}
 
 	@media (max-width: 500px) {
-		#yiayiassection6 h2 {
-			padding-top: 10%;
-			font-size: 3em;
-		}
 		.heading-underline-h2-s6 {
 			border-bottom: 5px solid #404040;
 			width: 215px;
 		}
 	}
 
-	#yiayiassection6 p {
-		font-size: 1.5em;
-		font-family: 'Raleway';
-		text-align: justify;
-	}
-
-	@media (max-width: 360px) {
-		#yiayiassection6 p {
-			font-size: 1.3em;
-		}
-	}
-
 	#yiayiassection6 .imagegutter {
-		padding-top: 23%;
-		padding-left: 6%;
+		margin-top: 22%;
 	}
 
 	@media (max-width: 	1200px) {
 		#yiayiassection6 .imagegutter {
-			padding-top: 28%;
-			padding-left: 6%;
+			margin-top: 27%;
 		}	
 	}
 
 	@media (max-width: 	992px) {
 		#yiayiassection6 .imagegutter {
-			padding-top: 2%;
-			padding-left: 0%;
 			width: 70%;
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
+			margin-top: 0;
 		}	
 	}
 
