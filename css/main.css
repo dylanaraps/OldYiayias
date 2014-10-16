@@ -84,9 +84,17 @@
 
 /* CENTERING STYLES (Used vertically center almost everything you see on the page.)
 ----------------------------------------------------------------------------- */
-	.verticalcenter, .verticalcenter-section1, .verticalcenter-section35 {
+	.verticalcenter, .verticalcenter-section1 {
  	 	position: relative;
   		top: 50%;
+  		transform: translateY(-50%);
+  		-webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+	}
+
+	.verticalcenter-section35 {
+		position: relative;
+  		top: 46%;
   		transform: translateY(-50%);
   		-webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -431,6 +439,44 @@
 		}
 	}
 
+	#yiayiassection3 h2, #yiayiassection5 h2 {
+		font-size: 6em;
+ 		font-family: 'Raleway';
+ 		font-weight: 700;
+ 		color: #FFFFFF;
+ 		text-align: center;
+	}
+
+	@media (max-width: 1100px) {
+		#yiayiassection3 h2, #yiayiassection5 h2 {
+			font-size: 4.9em;
+		}
+	}
+
+	@media (max-width: 760px) {
+		#yiayiassection3 h2, #yiayiassection5 h2 {
+			font-size: 4em;
+		}
+	}
+
+	@media (max-width: 600px) {
+		#yiayiassection3 h2, #yiayiassection5 h2 {
+			font-size: 3em;
+		}
+	}
+
+	@media (max-width: 460px) {
+		#yiayiassection3 h2, #yiayiassection5 h2 {
+			font-size: 2em;
+		}
+	}
+
+	@media (max-width: 360px) {
+		.verticalcenter-section35 {
+  			top: 45%;
+		}
+	}
+
 /* SECTION 1 STYLES
 ----------------------------------------------------------------------------- */
 	#yiayiassection1 {
@@ -672,44 +718,6 @@
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
     }
 
- 	#yiayiassection3 h2 {
- 		font-size: 6em;
- 		font-family: 'Raleway';
- 		font-weight: 700;
- 		color: #FFFFFF;
- 		text-align: center;
- 	}
-
- 	@media (max-width: 900px) {
-		#yiayiassection3 h2 {
-			font-size: 4.9em;
-		}
-	}
-
-	@media (max-width: 760px) {
-		#yiayiassection3 h2 {
-			font-size: 4em;
-		}
-	}
-
-	@media (max-width: 600px) {
-		#yiayiassection3 h2 {
-			font-size: 3em;
-		}
-	}
-
-	@media (max-width: 460px) {
-		#yiayiassection3 h2 {
-			font-size: 2em;
-		}
-	}
-
-	@media (max-width: 360px) {
-		.verticalcenter-section35 {
-  			top: 45%;
-		}
-	}
-
 /* SECTION 4 STYLES
 ----------------------------------------------------------------------------- */ 
 	#yiayiassection4 {
@@ -748,38 +756,6 @@
    	 	min-height: 500px;
    	 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section2.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section2.jpg', sizingMethod='scale')";
-	}
-
- 	#yiayiassection5 h2 {
- 		font-size: 6em;
- 		font-family: 'Raleway';
- 		font-weight: 700;
- 		color: #FFFFFF;
- 		text-align: center;
- 	}
-
- 	@media (max-width: 900px) {
-		#yiayiassection5 h2 {
-			font-size: 4.9em;
-		}
-	}
-
-	@media (max-width: 760px) {
-		#yiayiassection5 h2 {
-			font-size: 4em;
-		}
-	}
-
-	@media (max-width: 600px) {
-		#yiayiassection5 h2 {
-			font-size: 3em;
-		}
-	}
-
-	@media (max-width: 460px) {
-		#yiayiassection5 h2 {
-			font-size: 2em;
-		}
 	}
 
 /* SECTION 6 STYLES
