@@ -660,9 +660,9 @@
 ----------------------------------------------------------------------------- */
 	#yiayiassection3 {
     	background-image: url(../images/bg/section2.jpg);
-    	height: 60%;
-    	max-height: 60%;
-   	 	min-height: 60%;
+    	height: 500px;
+    	max-height: 500px;
+   	 	min-height: 500px;
 	   	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
         -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
     }
