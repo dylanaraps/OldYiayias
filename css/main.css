@@ -351,9 +351,7 @@
     	#yiayiassection3 h2 {
  			font-size: 4em;
  		}
- 		.verticalcenter-section35 {
-  			top: 45%;
-		}
+ 		
 	}
 
 	@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
