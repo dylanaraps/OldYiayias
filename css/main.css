@@ -685,6 +685,38 @@
     	padding-bottom: 5%;
 	}
 
+	#yiayiassection2 .bg-cakes-1, #yiayiassection2 .bg-cakes-2, #yiayiassection2 .bg-cakes-3, #yiayiassection2 .bg-cakes-4 {
+		display: block;
+  		width: 100% \9;
+  		max-width: 100%;
+  		height: 263px;
+  		margin-top: 32px;
+  		background-size: cover;
+	}
+
+	@media (max-width: 1200px) {
+		#yiayiassection2 .bg-cakes-1, #yiayiassection2 .bg-cakes-2, #yiayiassection2 .bg-cakes-3, #yiayiassection2 .bg-cakes-4 {
+  			height: 213px;
+  			margin-right: 4px;
+		}
+	}
+
+	#yiayiassection2 .bg-cakes-1 {
+		background-image: url(../images/cakes/1.jpg);
+	}
+
+	#yiayiassection2 .bg-cakes-2 {
+		background-image: url(../images/cakes/2.jpg);
+	}
+
+	#yiayiassection2 .bg-cakes-3 {
+		background-image: url(../images/cakes/3.jpg);
+	}
+
+	#yiayiassection2 .bg-cakes-4 {
+		background-image: url(../images/cakes/4.jpg);
+	}
+
 	.heading-underline-h2 {
 		border-bottom: 4px solid #404040;
 		width: 250px;
