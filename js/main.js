@@ -30,7 +30,3 @@ jQuery(document).ready(function($){
 window.sr = new scrollReveal({ mobile: false })
 scrollReveal.init();
 });
-
-jQuery(document).ready(function($){
-    $("img.lazy").lazyload();
-});
