@@ -685,7 +685,7 @@
     	padding-bottom: 5%;
 	}
 
-	#yiayiassection2 .bg-cakes-1, #yiayiassection2 .bg-cakes-2, #yiayiassection2 .bg-cakes-3, #yiayiassection2 .bg-cakes-4 {
+	#yiayiassection2 .s2-bg-cakes-1, #yiayiassection2 .s2-bg-cakes-2, #yiayiassection2 .s2-bg-cakes-3, #yiayiassection2 .s2-bg-cakes-4 {
 		display: block;
   		width: 100% \9;
   		max-width: 100%;
@@ -695,26 +695,42 @@
 	}
 
 	@media (max-width: 1200px) {
-		#yiayiassection2 .bg-cakes-1, #yiayiassection2 .bg-cakes-2, #yiayiassection2 .bg-cakes-3, #yiayiassection2 .bg-cakes-4 {
+		#yiayiassection2 .s2-bg-cakes-1, #yiayiassection2 .s2-bg-cakes-2, #yiayiassection2 .s2-bg-cakes-3, #yiayiassection2 .s2-bg-cakes-4 {
   			height: 213px;
   			margin-right: 4px;
 		}
 	}
 
-	#yiayiassection2 .bg-cakes-1 {
+	#yiayiassection2 .s2-bg-cakes-1 {
 		background-image: url(../images/cakes/1.jpg);
 	}
 
-	#yiayiassection2 .bg-cakes-2 {
+	#yiayiassection2 .s2-bg-cakes-2 {
 		background-image: url(../images/cakes/2.jpg);
 	}
 
-	#yiayiassection2 .bg-cakes-3 {
+	#yiayiassection2 .s2-bg-cakes-3 {
 		background-image: url(../images/cakes/3.jpg);
 	}
 
-	#yiayiassection2 .bg-cakes-4 {
+	#yiayiassection2 .s2-bg-cakes-4 {
 		background-image: url(../images/cakes/4.jpg);
+	}
+
+	#yiayiassection2 .s2-bg-coffee-1 {
+		background-image: url(../images/coffee/1.jpg);
+		display: block;
+  		width: 100% \9;
+  		max-width: 100%;
+  		height: 250px;
+  		background-size: cover;
+	}
+
+	@media (max-width: 500px) {
+		#yiayiassection2 .s2-bg-coffee-2 {
+  			height: 100px;
+  			width: 100px;
+		}
 	}
 
 	.heading-underline-h2 {
@@ -795,6 +811,38 @@
 	#yiayiassection4 .imagegutter {
 		margin-top: 5%;
 	}
+
+	#yiayiassection4 .s4-bg-cakes-1, #yiayiassection4 .s4-bg-cakes-2, #yiayiassection4 .s4-bg-cakes-3, #yiayiassection4 .s4-bg-cakes-4 {
+		display: block;
+  		width: 100% \9;
+  		max-width: 100%;
+  		height: 263px;
+  		margin-top: 10px;
+  		background-size: cover;
+	}
+
+	@media (max-width: 1200px) {
+		#yiayiassection4 .s4-bg-cakes-1, #yiayiassection4 .s4-bg-cakes-2, #yiayiassection4 .s4-bg-cakes-3, #yiayiassection4 .s4-bg-cakes-4 {
+  			height: 213px;
+  			margin-right: 4px;
+		}
+	}
+
+	#yiayiassection4 .s4-bg-cakes-1 {
+		background-image: url(../images/cakes/1.jpg);
+	}
+
+	#yiayiassection4 .s4-bg-cakes-2 {
+		background-image: url(../images/cakes/2.jpg);
+	}
+
+	#yiayiassection4 .s4-bg-cakes-3 {
+		background-image: url(../images/cakes/3.jpg);
+	}
+
+	#yiayiassection4 .s4-bg-cakes-4 {
+		background-image: url(../images/cakes/4.jpg);
+	}
  
 /* SECTION 5 STYLES
 ----------------------------------------------------------------------------- */ 
@@ -812,6 +860,31 @@
 	#yiayiassection6 {
     	background-color: #FFFFFF;
     	padding-bottom: 5%;
+	}
+
+	#yiayiassection6 .s6-bg-coffee-1, #yiayiassection6 .s6-bg-coffee-2 {
+		display: block;
+  		width: 100% \9;
+  		max-width: 100%;
+  		height: 230px;
+  		background-size: cover;
+	}
+
+	#yiayiassection6 .s6-bg-coffee-1 {
+		background-image: url(../images/coffee/1.jpg);
+		margin-top: 130px;
+	}
+
+	#yiayiassection6 .s6-bg-coffee-2 {
+		background-image: url(../images/cakes/1.jpg);
+		margin-top: 35px;
+	}
+
+	@media (max-width: 991px) {
+		#yiayiassection6 .s6-bg-coffee-1, #yiayiassection6 .s6-bg-coffee-2 {
+			height: 150px;
+			margin-top: 10px;
+		}
 	}
 
 	.heading-underline-h2-s6 {
