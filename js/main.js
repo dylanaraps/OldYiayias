@@ -16,13 +16,14 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 10) {
-        $(".navbar-default").addClass("navbar-bg");
-        $(".navbar-default").addClass("navbar-networkpad-scroll");
-        $(".yiayias-network-kek").addClass("yiayias-network-kek-scroll");
-    } else {
-        $(".navbar-default").removeClass("navbar-bg");
-        $(".navbar-default").removeClass("navbar-networkpad-scroll");
-        $(".yiayias-network-kek").removeClass("yiayias-network-kek-scroll");
+        $(".navbar-default").addClass("navbar-color-scroll");
+        $(".navbar-default").addClass("navbar-margin-scroll");
+        $(".yiayias-network").addClass("yiayias-network-scroll");
+    } 
+    else {
+        $(".navbar-default").removeClass("navbar-color-scroll");
+        $(".navbar-default").removeClass("navbar-margin-scroll");
+        $(".yiayias-network").removeClass("yiayias-network-scroll");
     }
 });
 
