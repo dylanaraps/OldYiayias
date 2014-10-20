@@ -844,11 +844,6 @@ They force a background-attachment: scroll; making the backgrounds display and f
 	#yiayias-section-footer {
       background-attachment: scroll !important;
     }
-
-    #yiayias-section-1 .bottom-padding {
- 	  padding-bottom: 25px;
-	}
-
 }
 
 @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
@@ -869,6 +864,10 @@ They force a background-attachment: scroll; making the backgrounds display and f
 	#yiayias-section-footer {
       background-attachment: scroll !important;
     }
+
+    #yiayias-section-1 .bottom-padding {
+ 	  padding-bottom: 25px;
+	}
 }
 
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
