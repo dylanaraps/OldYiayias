@@ -1,6 +1,8 @@
-/* Yiayias Custom Styles */
+/* ===============
+   Yiayia's Custom Styles 
+   =============== */
 
-/* Font Imports */
+/* === Font Imports === */
 @font-face {
   font-family: 'Yiayias';
   src: url('../fonts/dalek-webfont.eot');
@@ -24,7 +26,7 @@
   font-style: normal;
 }
 
-/* Icon Font Styles */
+/* === Icon Fonts === */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "yiayiasicons";
   font-style: normal;
@@ -57,7 +59,7 @@
 .icon-right:before { content: '\e807'; } /* '' */
 .icon-mail-alt:before { content: '\e808'; } /* '' */
 
-/* Transition Stylws */
+/* === Transitions === */
 a, 
 .navbar-default, 
 .navbar-default .navbar-brand, 
@@ -71,7 +73,7 @@ a,
   transition:.3s;
 }
 
-/* Navbar Network Styles */
+/* === Navbar Network === */
 .yiayias-network {
   background-color: #000000;
   -webkit-transform: none; 
@@ -115,7 +117,7 @@ a,
   display: none;
 }
 
-/* Main Navbar Styles */
+/* === Main Navbar === */
 .navbar-margin-top {
   margin-top: 30px;
 }
@@ -135,7 +137,7 @@ a,
   transition:.3s;
 }
 
-/* Navbar Title */
+/* === Navbar Title === */
 .navbar-default .navbar-brand {
   font-family: 'Yiayias';
   font-size: 1.6em;
@@ -147,7 +149,7 @@ a,
   color: #FFFFFF;
 }
 
-/* Navbar Links */
+/* === Navbar Links === */
 .navbar-default .navbar-nav > li > a {
   font-family: 'Raleway';
   font-size: 1.1em;
@@ -182,7 +184,7 @@ a,
   background-color: #D5D5D5;
 }
 
-/* Navbar Links Mobile */ 
+/* === Navbar Links Mobile === */
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
@@ -201,7 +203,7 @@ a,
   box-shadow: none;
 }	
 
-/* Section Styles */
+/* === Section Global === */
 html, 
 body,
 .fixed-backgrounds {
@@ -247,7 +249,7 @@ body,
 }
 
 
-/* Typography Styles */
+/* === Typography === */
 #yiayias-section-1 h1 {
   font-family: 'Yiayias';
   font-size: 12em;
@@ -377,7 +379,7 @@ body,
   padding-top: 2%;
 }
 	
-/* Section 1 Styles */
+/* === Section 1 === */
 #yiayias-section-1 {
   height: 100%;
   background-image: url(../images/bg/section1.jpg);
@@ -413,7 +415,7 @@ body,
 }
 
 
-/* Section 2 Styles */
+/* === Section 2 === */
 #yiayias-section-2 {
   margin-bottom: 4%;
 }
@@ -456,7 +458,7 @@ body,
   background-image: url(../images/cakes/4.jpg);
 }
 
-/* Section 3 Styles */
+/* === Section 3 === */
 #yiayias-section-3 {
   background-image: url(../images/bg/section2.jpg);
   height: 550px;
@@ -466,7 +468,7 @@ body,
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
 }
 	
-/* Section 4 Styles */
+/* === Section 4 === */
 #yiayias-section-4 {
   padding-bottom: 4%;
 }
@@ -497,7 +499,7 @@ body,
   background-image: url(../images/cakes/4.jpg);
 }
 
-/* Section 5 Styles */ 
+/* === Section 5 === */
 #yiayias-section-5 {
   background-image: url(../images/bg/section3.jpg);
   height: 550px;
@@ -507,7 +509,7 @@ body,
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section2.jpg', sizingMethod='scale')";
 }
 
-/* Section 6 Styles */
+/* === Section 6 === */
 #yiayias-section-6 {
   padding-bottom: 4%;
 }
@@ -532,7 +534,7 @@ body,
   margin-top: 20px;
 }
 
-/* Section Border Styles */
+/* === Section Border === */
 .yiayias-border {
   height: 50px;
   background: url('../images/bg/border.png');
@@ -540,15 +542,13 @@ body,
   background-color: #FFFFFF;
 }
 
-/* Section Footer Styles */
+/* === Section Footer === */
 #yiayias-section-footer {
   background-color: #10285B;
   background-image: url("../images/misc/footer.png");
 }
 
-
-
-/* Media Queries */
+/* === Media Queries === */
 @media (max-width: 1199px) { /* Adjusted values for sm breakpoint */
 	#yiayias-section-2 .section-2-cakes-1, 
 	#yiayias-section-2 .section-2-cakes-2, 
@@ -649,7 +649,6 @@ body,
       margin-bottom: 0;
 	}	
 }
-
 
 @media (max-width: 767px) {
 	.navbar-default /* Makes it so mobiles have a bg behind the nav at all times */ { 
