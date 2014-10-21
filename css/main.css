@@ -240,7 +240,8 @@ body,
 }
 
 .vertical-center-section-3, 
-.vertical-center-section-5 {
+.vertical-center-section-5,
+.vertical-center-section-7 {
   position: relative;
   top: 40%;
   transform: translateY(-40%);
@@ -310,8 +311,9 @@ body,
 }
 
 #yiayias-section-2 h2, 
-#yiayias-section-4 h2, 
-#yiayias-section-6 h2 {
+#yiayias-section-4 h2,
+#yiayias-section-6 h2, 
+#yiayias-section-8 h2 {
   font-size: 4em;
   font-family: 'Raleway';
   font-weight: 700;
@@ -321,14 +323,16 @@ body,
 
 #yiayias-section-2 p, 
 #yiayias-section-4 p,
-#yiayias-section-6 p {
+#yiayias-section-6 p, 
+#yiayias-section-8 p {
   font-size: 16pt;
   font-family: 'Raleway';
   text-align: justify;
 }	
 
 #yiayias-section-3 h2, 
-#yiayias-section-5 h2 {
+#yiayias-section-5 h2,
+#yiayias-section-7 h2 {
   font-size: 6em;
   font-family: 'Raleway';
   font-weight: 700;
@@ -337,7 +341,8 @@ body,
 }	
 
 #yiayias-section-3 .heading-underline,
-#yiayias-section-5 .heading-underline {
+#yiayias-section-5 .heading-underline,
+#yiayias-section-7 .heading-underline {
   border-bottom: 10px solid #FFFFFF;
 }
 
@@ -534,6 +539,21 @@ body,
   margin-top: 20px;
 }
 
+/* === Section 7 === */
+#yiayias-section-7 {
+  background-image: url(../images/bg/section2.jpg);
+  height: 550px;
+  max-height: 550px;
+  min-height: 550px;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
+}
+
+/* === Section 8 === */
+#yiayias-section-8 {
+  padding-bottom: 30px;
+}
+
 /* === Section Border === */
 .yiayias-border {
   height: 50px;
@@ -589,8 +609,9 @@ body,
 }
 
 @media (max-width: 1100px) {
-	#yiayias-section-3 h2, 
-	#yiayias-section-5 h2 {
+	#yiayias-section-3 h2,
+  #yiayias-section-5 h2,
+  #yiayias-section-7 h2 {
 	  font-size: 4.9em;
 	}
 }
@@ -689,8 +710,9 @@ body,
 }
 
 @media (max-width: 760px) {
-	#yiayias-section-3 h2, 
-	#yiayias-section-5 h2 {
+	#yiayias-section-3 h2,
+  #yiayias-section-5 h2, 
+	#yiayias-section-7 h2 {
 	  font-size: 4em;
 	}
 }
@@ -723,8 +745,9 @@ body,
 }
 
 @media (max-width: 600px) {
-	#yiayias-section-3 h2, 
-	#yiayias-section-5 h2 {
+	#yiayias-section-3 h2,
+  #yiayias-section-5 h2, 
+	#yiayias-section-7 h2 {
 	  font-size: 3em;
 	}
 }
@@ -767,12 +790,14 @@ body,
 
 @media (max-width: 460px) {
 	#yiayias-section-3 .heading-underline,
-	#yiayias-section-5 .heading-underline {
+  #yiayias-section-5 .heading-underline,
+	#yiayias-section-7 .heading-underline {
 	  border-bottom: 5px solid #FFFFFF;
 	}
 
-	#yiayias-section-3 h2, 
-	#yiayias-section-5 h2 {
+	#yiayias-section-3 h2,
+  #yiayias-section-5 h2, 
+	#yiayias-section-7 h2 {
 	  font-size: 2em;
 	}
 
