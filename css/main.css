@@ -664,11 +664,18 @@ body,
 
 	#yiayias-section-6 .row-center {
 	  height: 470px;
-   	  max-width: 550px;
-   	  margin: 0px auto;
-      vertical-align: middle;
-      margin-bottom: 0;
+   	max-width: 550px;
+   	margin: 0px auto;
+    vertical-align: middle;
+    margin-bottom: 0;
 	}	
+
+  #yiayias-section-2 p, 
+  #yiayias-section-4 p,
+  #yiayias-section-6 p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -724,24 +731,31 @@ body,
 
 	#yiayias-section-4 .row-center {
 	  height: 550px;
-   	  max-width: 550px;
-   	  margin: 0px auto;
-      vertical-align: middle;
-      margin-bottom: 0;
-      display: none;
+    max-width: 550px;
+    margin: 0px auto;
+    vertical-align: middle;
+    margin-bottom: 0;
+    display: none;
 	}
 
 	#yiayias-section-4 .section-4-cakes-1, 
 	#yiayias-section-4 .section-4-cakes-2 {
-  	  height: 450px;
-  	  width: 250px;
-  	  margin-top: 20px;
-  	  margin-left: 20px;
+  	height: 450px;
+  	width: 250px;
+  	margin-top: 20px;
+  	margin-left: 20px;
 	}	
 
 	#yiayias-section-6 .row-center {
-			display: none;
+		display: none;
 	}
+
+  #yiayias-section-2 p, 
+  #yiayias-section-4 p,
+  #yiayias-section-6 p {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
 
 @media (max-width: 600px) {
