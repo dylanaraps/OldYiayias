@@ -312,8 +312,7 @@ body,
 
 #yiayias-section-2 h2, 
 #yiayias-section-4 h2,
-#yiayias-section-6 h2, 
-#yiayias-section-8 h2 {
+#yiayias-section-6 h2 {
   font-size: 4em;
   font-family: 'Raleway';
   font-weight: 700;
@@ -323,8 +322,7 @@ body,
 
 #yiayias-section-2 p, 
 #yiayias-section-4 p,
-#yiayias-section-6 p, 
-#yiayias-section-8 p {
+#yiayias-section-6 p {
   font-size: 16pt;
   font-family: 'Raleway';
   text-align: justify;
@@ -547,11 +545,6 @@ body,
   min-height: 550px;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section1.jpg', sizingMethod='scale')";
-}
-
-/* === Section 8 === */
-#yiayias-section-8 {
-  padding-bottom: 30px;
 }
 
 /* === Section Border === */
