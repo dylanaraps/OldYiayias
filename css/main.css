@@ -393,7 +393,7 @@ body,
 
 /* === Section 1 === */
 #yiayias-section-1 {
-  height: 100%;
+  height: 100vh;
   background-image: url(../images/bg/section1alt.jpg);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -406,7 +406,8 @@ body,
 /* Needs a combination of display: inline-block; and text-align: center; to be centered properly */
 #yiayias-section-1 a .icon-angle-down {
   font-size: 5.5em;
-  width: 10%;
+  width: 100%;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   color: #FFFFFF;
