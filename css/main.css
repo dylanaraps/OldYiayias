@@ -952,3 +952,47 @@ They force a background-attachment: scroll; making the backgrounds display and f
         	background-attachment: scroll !important;
     }
 }
+
+
+
+  /* iPhone with landscape orientation */
+@media screen and (device-width: 320px) and (device-height: 480px) and (orientation: landscape) {
+  #yiayias-section-1 {
+    height: 320px;
+  }
+}
+ 
+/* iPhone with portrait orientation */
+@media screen and (device-width: 320px) and (device-height: 480px) and (orientation: portrait) {
+  #yiayias-section-1 {
+    height: 480px;
+  }
+}
+ 
+/* iPad with landscape orientation */
+@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+  #yiayias-section-1 {
+    height: 768px;
+  }
+}
+ 
+/* iPad with portrait orientation */
+@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+   #yiayias-section-1 {
+    height: 1024px;
+  }
+}
+ 
+/* iPhone 5 with landscape orientation */
+@media screen and (device-width: 560px) and (device-height: 1136px) and (orientation: landscape) {
+  #yiayias-section-1 {
+    height: 500px;
+  }
+}
+ 
+/* iPhone 5 with portrait orientation */
+@media screen and (device-width: 560px) and (device-height: 1136px) and (orientation: portrait) {
+  #yiayias-section-1 {
+    height: 1136px;
+  }
+} 
