@@ -17,13 +17,9 @@ $(window).scroll(function() {
 
     if (scroll >= 10) {
         $(".navbar-default").addClass("navbar-color-scroll");
-        $(".navbar-default").addClass("navbar-margin-scroll");
-        $(".yiayias-network").addClass("yiayias-network-scroll");
     } 
     else {
         $(".navbar-default").removeClass("navbar-color-scroll");
-        $(".navbar-default").removeClass("navbar-margin-scroll");
-        $(".yiayias-network").removeClass("yiayias-network-scroll");
     }
 });
 

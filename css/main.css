@@ -73,59 +73,7 @@ a,
   transition:.3s;
 }
 
-/* === Navbar Network === */
-.yiayias-network {
-  background-color: #000000;
-  -webkit-transform: none; 
-  height: 10px !important;	
-}
-
-.yiayias-network .navbar-nav > li > a {
-  padding-top: 5px !important; 
-  padding-bottom: 5px !important;
-}
-
-.yiayias-network .navbar {
-  min-height: 32px !important;
-}
-
-.yiayias-network-header {
-  font-size: 1.2em;
-  font-family: 'Raleway';
-  padding-top: 5px;
-  color: #808080;
-}
-
-.yiayias-network-links a {
-  font-size: 1em;
-  font-family: 'Yiayias';
-  padding-top: 5px;
-  color: #A0A0A0;
-  text-decoration: none;
-  -o-transition:.3s;
-  -ms-transition:.3s;
-  -moz-transition:.3s;
-  -webkit-transition:.3s;
-  transition:.3s;
-}
-
-.yiayias-network-links a:hover {
-  color: #FFFFFF;
-}
-
-.yiayias-network-scroll {
-  display: none;
-}
-
 /* === Main Navbar === */
-.navbar-margin-top {
-  margin-top: 30px;
-}
-
-.navbar-margin-scroll {
-  margin-top: 0px;
-}
-
 .navbar-color-scroll /* the js code uses this to overide the navbar bg on scroll */ {
   background: rgb(25, 25, 25) !important; /* Fall-back for browsers that don't support rgba */
   background: rgba(25, 25, 25, .7) !important;
@@ -393,7 +341,7 @@ body,
 
 /* === Section 1 === */
 #yiayias-section-1 {
-  height: 100vh;
+  height: 100%;
   background-image: url(../images/bg/section1alt.jpg);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -954,45 +902,3 @@ They force a background-attachment: scroll; making the backgrounds display and f
 }
 
 
-
-  /* iPhone with landscape orientation */
-@media screen and (device-width: 320px) and (device-height: 480px) and (orientation: landscape) {
-  #yiayias-section-1 {
-    height: 320px;
-  }
-}
- 
-/* iPhone with portrait orientation */
-@media screen and (device-width: 320px) and (device-height: 480px) and (orientation: portrait) {
-  #yiayias-section-1 {
-    height: 480px;
-  }
-}
- 
-/* iPad with landscape orientation */
-@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
-  #yiayias-section-1 {
-    height: 768px;
-  }
-}
- 
-/* iPad with portrait orientation */
-@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
-   #yiayias-section-1 {
-    height: 1024px;
-  }
-}
- 
-/* iPhone 5 with landscape orientation */
-@media screen and (device-width: 560px) and (device-height: 1136px) and (orientation: landscape) {
-  #yiayias-section-1 {
-    height: 500px;
-  }
-}
- 
-/* iPhone 5 with portrait orientation */
-@media screen and (device-width: 560px) and (device-height: 1136px) and (orientation: portrait) {
-  #yiayias-section-1 {
-    height: 1136px;
-  }
-} 
