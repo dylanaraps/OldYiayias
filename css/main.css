@@ -204,6 +204,7 @@ body,
   font-size: 12em;
   color: #FFFFFF;
   text-align: center;
+  text-shadow: 0px 3px 4px rgba(50, 50, 50, 1);
 }
 
 #yiayias-section-1 h2 {
@@ -213,6 +214,7 @@ body,
   color: #FFFFFF;
   text-align: center;
   line-height: 0.75;
+  text-shadow: 0px 3px 4px rgba(50, 50, 50, 1);
 }
 
 #yiayias-section-1 h3 {
@@ -221,6 +223,7 @@ body,
   color: #FFFFFF;
   text-align: center;
   line-height: 0.75;
+  text-shadow: 0px 3px 4px rgba(50, 50, 50, 1);
 }
 
 #yiayias-section-1 li a {
@@ -228,6 +231,7 @@ body,
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
+  text-shadow: 0px 3px 4px rgba(50, 50, 50, 1);
 }
 
 #yiayias-section-1 li {
