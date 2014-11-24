@@ -531,6 +531,7 @@ body,
   height: 225px;
   width: 550px;
   background-size: cover;
+  padding-left: 20px;
 }
 
 #yiayias-section-6-9 .section-6-9-market-1 {
@@ -553,7 +554,7 @@ body,
 
 /* === Section 7 === */
 #yiayias-section-7 {
-  background-image: url(../images/bg/section4.jpg);
+  background-image: url(../images/bg/section1alt.jpg);
   height: 550px;
   max-height: 550px;
   min-height: 550px;
@@ -613,6 +614,10 @@ body,
 	#yiayias-section-6 .section-6-coffee-1 {
 	  margin-top: 120px;
 	}	
+
+  #yiayias-section-6-9 .section-6-9-market-1 {
+    margin-top: 120px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -653,6 +658,14 @@ body,
       margin-bottom: 0;
 	}
 
+  #yiayias-section-6-9 .row-center {
+    height: 500px;
+      max-width: 550px;
+      margin: 0px auto;
+      vertical-align: middle;
+      margin-bottom: 0;
+  }
+
 	#yiayias-section-4 .section-4-cakes-1, 
 	#yiayias-section-4 .section-4-cakes-2 {
   	  height: 450px;
@@ -679,7 +692,8 @@ body,
 
   #yiayias-section-2 p, 
   #yiayias-section-4 p,
-  #yiayias-section-6 p {
+  #yiayias-section-6 p, 
+  #yiayias-section-6-9 p {
     margin-left: 15%;
     margin-right: 15%;
   }
