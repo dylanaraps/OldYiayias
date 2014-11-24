@@ -288,6 +288,7 @@ body,
   font-weight: 700;
   color: #FFFFFF;
   text-align: center;
+  text-shadow: 0px 3px 4px rgba(50, 50, 50, 1);
 }	
 
 #yiayias-section-3 .heading-underline,
@@ -386,47 +387,48 @@ body,
   margin-bottom: 4%;
 }
 
-#yiayias-section-2 .section-2-cakes-1, 
-#yiayias-section-2 .section-2-cakes-2, 
-#yiayias-section-2 .section-2-cakes-3,
-#yiayias-section-2 .section-2-cakes-4 {
+#yiayias-section-2 .section-2-shop-1, 
+#yiayias-section-2 .section-2-shop-2, 
+#yiayias-section-2 .section-2-shop-3,
+#yiayias-section-2 .section-2-shop-4 {
   width: 240px;
   height: 240px;
   background-size: cover;
   display: inline-block;
 }
 
-#yiayias-section-2 .section-2-cakes-1, 
-#yiayias-section-2 .section-2-cakes-2 {
+#yiayias-section-2 .section-2-shop-1, 
+#yiayias-section-2 .section-2-shop-2 {
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
 
-#yiayias-section-2 .section-2-cakes-3, 
-#yiayias-section-2 .section-2-cakes-4 {
+#yiayias-section-2 .section-2-shop-3, 
+#yiayias-section-2 .section-2-shop-4 {
   margin-left: 20px;
 }
 
-#yiayias-section-2 .section-2-cakes-1 {
-  background-image: url(../images/cakes/1.jpg);
+#yiayias-section-2 .section-2-shop-1 {
+  background-image: url(../images/shop/1.jpg);
 }
 
-#yiayias-section-2 .section-2-cakes-2 {
-  background-image: url(../images/cakes/2.jpg);
+#yiayias-section-2 .section-2-shop-2 {
+  background-image: url(../images/shop/2.jpg);
 }
 
-#yiayias-section-2 .section-2-cakes-3 {
-  background-image: url(../images/cakes/3.jpg);
+#yiayias-section-2 .section-2-shop-3 {
+  background-image: url(../images/shop/3.jpg);
 }
 
-#yiayias-section-2 .section-2-cakes-4 {
-  background-image: url(../images/cakes/4.jpg);
+#yiayias-section-2 .section-2-shop-4 {
+  background-image: url(../images/shop/4.jpg);
 }
 
 /* === Section 3 === */
 #yiayias-section-3 {
   background-image: url(../images/bg/section2.jpg);
+  background-size: cover;
   height: 550px;
   max-height: 550px;
   min-height: 550px;
@@ -496,13 +498,13 @@ body,
 }
 
 #yiayias-section-6 .section-6-coffee-2 {
-  background-image: url(../images/cakes/1.jpg);
+  background-image: url(../images/coffee/2.jpg);
   margin-top: 20px;
 }
 
 /* === Section 7 === */
 #yiayias-section-7 {
-  background-image: url(../images/bg/section2.jpg);
+  background-image: url(../images/bg/section4.jpg);
   height: 550px;
   max-height: 550px;
   min-height: 550px;
@@ -526,23 +528,23 @@ body,
 
 /* === Media Queries === */
 @media (max-width: 1199px) { /* Adjusted values for sm breakpoint */
-	#yiayias-section-2 .section-2-cakes-1, 
-	#yiayias-section-2 .section-2-cakes-2, 
-	#yiayias-section-2 .section-2-cakes-3,
-	#yiayias-section-2 .section-2-cakes-4 {
+	#yiayias-section-2 .section-2-shop-1, 
+	#yiayias-section-2 .section-2-shop-2, 
+	#yiayias-section-2 .section-2-shop-3,
+	#yiayias-section-2 .section-2-shop-4 {
   	  width: 210px;
   	  height: 210px;
 	}
 
-	#yiayias-section-2 .section-2-cakes-1, 
-	#yiayias-section-2 .section-2-cakes-2 {
+	#yiayias-section-2 .section-2-shop-1, 
+	#yiayias-section-2 .section-2-shop-2 {
 	  margin-top: 115px;
 	  margin-left: 20px;
 	  margin-bottom: 20px;
 	}
 
-	#yiayias-section-2 .section-2-cakes-3,
-	#yiayias-section-2 .section-2-cakes-4  {
+	#yiayias-section-2 .section-2-shop-3,
+	#yiayias-section-2 .section-2-shop-4  {
 	  margin-left: 20px;
 	}
 
@@ -573,16 +575,16 @@ body,
 }
 
 @media (max-width: 991px) {
-	#yiayias-section-2 .section-2-cakes-1, 
-	#yiayias-section-2 .section-2-cakes-2, 
-	#yiayias-section-2 .section-2-cakes-3,
-	#yiayias-section-2 .section-2-cakes-4 {
+	#yiayias-section-2 .section-2-shop-1, 
+	#yiayias-section-2 .section-2-shop-2, 
+	#yiayias-section-2 .section-2-shop-3,
+	#yiayias-section-2 .section-2-shop-4 {
   	  width: 240px;
   	  height: 240px;
 	}
 
-	#yiayias-section-2 .section-2-cakes-1, 
-	#yiayias-section-2 .section-2-cakes-2 {
+	#yiayias-section-2 .section-2-shop-1, 
+	#yiayias-section-2 .section-2-shop-2 {
 	  margin-top: 20px;
 	  margin-bottom: 20px;
 	}
