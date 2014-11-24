@@ -189,7 +189,8 @@ body,
 
 .vertical-center-section-3, 
 .vertical-center-section-5,
-.vertical-center-section-7 {
+.vertical-center-section-7,
+.vertical-center-section-65 {
   position: relative;
   top: 40%;
   transform: translateY(-40%);
@@ -264,7 +265,8 @@ body,
 
 #yiayias-section-2 h2, 
 #yiayias-section-4 h2,
-#yiayias-section-6 h2 {
+#yiayias-section-6 h2,
+#yiayias-section-6-9 h2 {
   font-size: 4em;
   font-family: 'Raleway';
   font-weight: 700;
@@ -274,7 +276,8 @@ body,
 
 #yiayias-section-2 p, 
 #yiayias-section-4 p,
-#yiayias-section-6 p {
+#yiayias-section-6 p,
+#yiayias-section-6-9 p {
   font-size: 16pt;
   font-family: 'Raleway';
   text-align: justify;
@@ -282,7 +285,8 @@ body,
 
 #yiayias-section-3 h2, 
 #yiayias-section-5 h2,
-#yiayias-section-7 h2 {
+#yiayias-section-7 h2,
+#yiayias-section-65 h2  {
   font-size: 6em;
   font-family: 'Raleway';
   font-weight: 700;
@@ -293,7 +297,8 @@ body,
 
 #yiayias-section-3 .heading-underline,
 #yiayias-section-5 .heading-underline,
-#yiayias-section-7 .heading-underline {
+#yiayias-section-7 .heading-underline, 
+#yiayias-section-65 .heading-underline {
   border-bottom: 10px solid #FFFFFF;
 }
 
@@ -500,6 +505,50 @@ body,
 #yiayias-section-6 .section-6-coffee-2 {
   background-image: url(../images/coffee/2.jpg);
   margin-top: 20px;
+}
+
+/* === Section 65 === */
+#yiayias-section-65 {
+  background-image: url(../images/bg/section5.jpg);
+  height: 550px;
+  max-height: 550px;
+  min-height: 550px;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section2.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg/section2.jpg', sizingMethod='scale')";
+}
+
+
+/* === Section 6-9 === */
+#yiayias-section-6-9 {
+  padding-bottom: 4%;
+}
+
+#yiayias-section-6-9 .section-6-9-market-1, 
+#yiayias-section-6-9 .section-6-9-market-2 {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: 225px;
+  width: 550px;
+  background-size: cover;
+}
+
+#yiayias-section-6-9 .section-6-9-market-1 {
+  background-image: url(../images/market/1.jpg);
+  margin-top: 50px;
+}
+
+#yiayias-section-6-9 .section-6-9-market-2 {
+  background-image: url(../images/market/2.jpg);
+  margin-top: 20px;
+}
+
+#yiayias-section-6-9 .section-6-9-market-3 {
+  background-image: url(../images/market/3.jpg);
+}
+
+#yiayias-section-6-9 .section-6-9-market-4 {
+  background-image: url(../images/market/4.jpg);
 }
 
 /* === Section 7 === */
