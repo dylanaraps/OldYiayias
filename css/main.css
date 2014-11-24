@@ -576,6 +576,27 @@ body,
   background-image: url("../images/misc/footer.png");
 }
 
+/* === Section Blog Title === */
+#yiayias-section-blog-title {
+  height: 300px;
+  background-color: #073560;
+}
+
+#yiayias-section-blog-title h1 {
+  font-size: 6em;
+  font-family: 'yiayias';
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#yiayias-section-blog-title h3 {
+  font-size: 2em;
+  font-family: 'Raleway';
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
 /* === Media Queries === */
 @media (max-width: 1199px) { /* Adjusted values for sm breakpoint */
 	#yiayias-section-2 .section-2-shop-1, 
