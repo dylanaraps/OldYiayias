@@ -651,7 +651,7 @@ body,
 	}
 
 	#yiayias-section-4 .row-center {
-	  height: 500px;
+	    height: 500px;
    	  max-width: 550px;
    	  margin: 0px auto;
       vertical-align: middle;
@@ -659,11 +659,15 @@ body,
 	}
 
   #yiayias-section-6-9 .row-center {
-    height: 500px;
+      height: 500px;
       max-width: 550px;
       margin: 0px auto;
       vertical-align: middle;
       margin-bottom: 0;
+  }
+
+  #yiayias-section-6-9 .section-6-9-market-1 {
+    margin-top: 25px;
   }
 
 	#yiayias-section-4 .section-4-cakes-1, 
